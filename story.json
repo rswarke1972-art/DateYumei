@@ -1,0 +1,3813 @@
+{
+  "chapter1": [
+
+    {
+      "image": "assets/images/chapter1/scene1.webp",
+      "speaker": "",
+      "text": "Morning sunlight spilled softly into the classroom as students settled into their seats."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene1.webp",
+      "speaker": "",
+      "text": "A pen slipped quietly from a girl's bag and rolled across the floor."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene1.webp",
+      "speaker": "{username}",
+      "text": "Hey… you dropped this."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene1.webp",
+      "speaker": "Yumei",
+      "text": "Oh… thank you."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene1.webp",
+      "speaker": "Yumei",
+      "text": "Thank you, friend."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene1.webp",
+      "speaker": "{username}",
+      "text": "You can call me {username}, Yumei."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene1.webp",
+      "speaker": "",
+      "text": "She blinked in surprise."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene1.webp",
+      "speaker": "Yumei",
+      "text": "Okay… but how do you know my name?"
+    },
+
+    {
+      "image": "assets/images/chapter1/scene1.webp",
+      "speaker": "{username}",
+      "text": "Don't be silly, of course I know the name of the school topper."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene1.webp",
+      "speaker": "",
+      "text": "A faint blush touched Yumei’s cheeks."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene1.webp",
+      "speaker": "Yumei",
+      "text": "Oh… yeah."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene1.webp",
+      "speaker": "Yumei",
+      "text": "I guess that makes sense."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene2.webp",
+      "speaker": "",
+      "text": "Later that afternoon, the hallway buzzed softly as students moved between classrooms."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene2.webp",
+      "speaker": "",
+      "text": "You and Yumei slowly walked through the corridor together."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene2.webp",
+      "speaker": "{username}",
+      "text": "Hey Yumei… since we're friends now, introduce yourself"
+    },
+
+    {
+      "image": "assets/images/chapter1/scene2.webp",
+      "speaker": "Yumei",
+      "text": "Okay..."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene2.webp",
+      "speaker": "Yumei",
+      "text": "...you first."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene2.webp",
+      "speaker": "{username}",
+      "text": "Nah ladies first, you know?"
+    },
+
+    {
+      "image": "assets/images/chapter1/scene2.webp",
+      "speaker": "",
+      "text": "A tiny smile appeared on Yumei’s face."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene2.webp",
+      "speaker": "Yumei",
+      "text": "That's kind of you to say..."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene2.webp",
+      "speaker": "Yumei",
+      "text": "But how can I introduce myself first?"
+    },
+
+    {
+      "image": "assets/images/chapter1/scene2.webp",
+      "speaker": "Yumei",
+      "text": "Wouldn't it be easier if you showed me first?"
+    },
+
+    {
+      "image": "assets/images/chapter1/scene2.webp",
+      "speaker": "{username}",
+      "text": "Fair enough."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene2.webp",
+      "speaker": "{username}",
+      "text": "Well… I'm {username}. I like making websites and learning random things"
+    },
+
+    {
+      "image": "assets/images/chapter1/scene2.webp",
+      "speaker": "",
+      "text": "Yumei listened carefully."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene2.webp",
+      "speaker": "Yumei",
+      "text": "Hmm… that's actually interesting."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene2.webp",
+      "speaker": "Yumei",
+      "text": "Okay then… my turn."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene2.webp",
+      "speaker": "Yumei",
+      "text": "I'm Yumei."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene2.webp",
+      "speaker": "Yumei",
+      "text": "And… aha… I'm actually really into reading manhwas."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene2.webp",
+      "speaker": "Yumei",
+      "text": "And playing mobile games too"
+    },
+
+    {
+      "image": "assets/images/chapter1/scene3.webp",
+      "speaker": "",
+      "text": "The corridor slowly grew quieter as you both kept walking together."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene3.webp",
+      "speaker": "{username}",
+      "text": "So Yumei… what would you like to do after school?"
+    },
+
+    {
+      "image": "assets/images/chapter1/scene3.webp",
+      "speaker": "Yumei",
+      "text": "Umm..."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene3.webp",
+      "speaker": "Yumei",
+      "text": "I think I want to become a computer engineer."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene3.webp",
+      "speaker": "{username}",
+      "text": "And why is that?"
+    },
+
+    {
+      "image": "assets/images/chapter1/scene3.webp",
+      "speaker": "Yumei",
+      "text": "Business"
+    },
+
+    {
+      "image": "assets/images/chapter1/scene3.webp",
+      "speaker": "Yumei",
+      "text": "Computer engineers earn a lot here yk haha"
+    },
+
+    {
+      "image": "assets/images/chapter1/scene3.webp",
+      "speaker": "Yumei",
+      "text": "What about you? What's your ambition?"
+    },
+
+    {
+      "image": "assets/images/chapter1/scene3.webp",
+      "speaker": "{username}",
+      "text": "Same actually. I want to become a computer engineer too."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene3.webp",
+      "speaker": "Yumei",
+      "text": "Oho..."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene3.webp",
+      "speaker": "Yumei",
+      "text": "Is it really a coincidence or is there some other reason?"
+    },
+
+    {
+      "image": "assets/images/chapter1/scene3.webp",
+      "speaker": "{username}",
+      "text": "Coincidences can be surprisingly good sometimes."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene3.webp",
+      "speaker": "{username}",
+      "text": "I also make websites in my free time."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene3.webp",
+      "speaker": "Yumei",
+      "text": "Wait… you make those websites?"
+    },
+
+    {
+      "image": "assets/images/chapter1/scene3.webp",
+      "speaker": "Yumei",
+      "text": "I've actually tried one before."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene3.webp",
+      "speaker": "{username}",
+      "text": "Really? How are they?"
+    },
+
+    {
+      "image": "assets/images/chapter1/scene3.webp",
+      "speaker": "Yumei",
+      "text": "Not good."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene3.webp",
+      "speaker": "",
+      "text": "Your face dropped instantly."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene3.webp",
+      "speaker": "Yumei",
+      "text": "I'm joking"
+    },
+
+    {
+      "image": "assets/images/chapter1/scene3.webp",
+      "speaker": "Yumei",
+      "text": "They're actually really amazing."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene3.webp",
+      "speaker": "{username}",
+      "text": "Thank you so much, Yumei."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene4.webp",
+      "speaker": "",
+      "text": "The school day slowly came to an end."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene4.webp",
+      "speaker": "",
+      "text": "Golden sunlight stretched across the school gate as students headed home."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene4.webp",
+      "speaker": "{username}",
+      "text": "It was really a pleasure talking to you today, Yumei."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene4.webp",
+      "speaker": "Yumei",
+      "text": "Yeah… sadly it's time to say bye."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene4.webp",
+      "speaker": "{username}",
+      "text": "Hey Yumei… why don't you try making websites too?"
+    },
+
+    {
+      "image": "assets/images/chapter1/scene4.webp",
+      "speaker": "Yumei",
+      "text": "I want to… but I get confused and can't make any."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene4.webp",
+      "speaker": "{username}",
+      "text": "Don't worry. I'll help you. I've made many websites"
+    },
+
+    {
+      "image": "assets/images/chapter1/scene4.webp",
+      "speaker": "Yumei",
+      "text": "Really?"
+    },
+
+    {
+      "image": "assets/images/chapter1/scene4.webp",
+      "speaker": "",
+      "text": "She looked at you with surprise and hope."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene4.webp",
+      "speaker": "{username}",
+      "text": "Yes, of course."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene4.webp",
+      "speaker": "Yumei",
+      "text": "Oh… you're one of the nicest people I've met."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene4.webp",
+      "speaker": "Yumei",
+      "text": "Thank you."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene4.webp",
+      "speaker": "{username}",
+      "text": "Of course, Yumei"
+    },
+
+    {
+      "image": "assets/images/chapter1/scene4.webp",
+      "speaker": "Yumei",
+      "text": "Okay… I'll ask for your help when I need it."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene4.webp",
+      "speaker": "Yumei",
+      "text": "Bye, {username}."
+    },
+
+    {
+      "image": "assets/images/chapter1/scene4.webp",
+      "speaker": "{username}",
+      "text": "Bye, Yumei."
+    }
+
+  ],
+
+  "chapter2":[
+    {
+  "image": "assets/images/chapter2/scene1.webp",
+  "speaker": "",
+  "text": "The next day passed more quietly than expected."
+},
+
+{
+  "image": "assets/images/chapter2/scene1.webp",
+  "speaker": "",
+  "text": "Soft sunlight slipped through the library windows as students sat quietly between shelves and tables."
+},
+
+{
+  "image": "assets/images/chapter2/scene1.webp",
+  "speaker": "",
+  "text": "You sat near the corner of the library with your laptop open."
+},
+
+{
+  "image": "assets/images/chapter2/scene1.webp",
+  "speaker": "",
+  "text": "Beside you sat Yumei."
+},
+
+{
+  "image": "assets/images/chapter2/scene1.webp",
+  "speaker": "",
+  "text": "The laptop rested in front of her while you explained the basics of making websites."
+},
+
+{
+  "image": "assets/images/chapter2/scene1.webp",
+  "speaker": "{username}",
+  "text": "See? It looks confusing at first..."
+},
+
+{
+  "image": "assets/images/chapter2/scene1.webp",
+  "speaker": "{username}",
+  "text": "But once you understand the structure, it actually becomes fun."
+},
+
+{
+  "image": "assets/images/chapter2/scene1.webp",
+  "speaker": "",
+  "text": "Yumei watched the screen carefully."
+},
+
+{
+  "image": "assets/images/chapter2/scene1.webp",
+  "speaker": "",
+  "text": "Every now and then, she quietly nodded while trying to follow along."
+},
+
+{
+  "image": "assets/images/chapter2/scene1.webp",
+  "speaker": "Yumei",
+  "text": "You make this look way easier than it feels."
+},
+
+{
+  "image": "assets/images/chapter2/scene1.webp",
+  "speaker": "{username}",
+  "text": "Trust me, my first website was terrible."
+},
+
+{
+  "image": "assets/images/chapter2/scene1.webp",
+  "speaker": "",
+  "text": "A small laugh escaped her."
+},
+
+{
+  "image": "assets/images/chapter2/scene1.webp",
+  "speaker": "Yumei",
+  "text": "I don't believe that."
+},
+
+{
+  "image": "assets/images/chapter2/scene1.webp",
+  "speaker": "",
+  "text": "For a moment, she stopped looking at the screen."
+},
+
+{
+  "image": "assets/images/chapter2/scene1.webp",
+  "speaker": "",
+  "text": "Instead, she looked at you."
+},
+
+{
+  "image": "assets/images/chapter2/scene1.webp",
+  "speaker": "",
+  "text": "There was something quietly warm in her expression."
+},
+
+{
+  "image": "assets/images/chapter2/scene1.webp",
+  "speaker": "Yumei",
+  "text": "Thank you for helping me."
+},
+
+{
+  "image": "assets/images/chapter2/scene1.webp",
+  "speaker": "Yumei",
+  "text": "You really didn't have to."
+},
+
+{
+  "image": "assets/images/chapter2/scene1.webp",
+  "speaker": "{username}",
+  "text": "I said I would help, didn't I?"
+},
+
+{
+  "image": "assets/images/chapter2/scene1.webp",
+  "speaker": "",
+  "text": "Yumei smiled softly."
+},
+
+{
+  "image": "assets/images/chapter2/scene1.webp",
+  "speaker": "Yumei",
+  "text": "You're honestly really kind."
+},
+
+{
+  "image": "assets/images/chapter2/scene2.webp",
+  "speaker": "{username}",
+  "text": "For some work, this can also give you an idea of what computer science engineers actually do."
+},
+
+{
+  "image": "assets/images/chapter2/scene2.webp",
+  "speaker": "{username}",
+  "text": "Would you like to see some of the websites I've made?"
+},
+
+{
+  "image": "assets/images/chapter2/scene2.webp",
+  "speaker": "",
+  "text": "Yumei’s eyes brightened with curiosity."
+},
+
+{
+  "image": "assets/images/chapter2/scene2.webp",
+  "speaker": "Yumei",
+  "text": "Sure."
+},
+
+{
+  "image": "assets/images/chapter2/scene2.webp",
+  "speaker": "Yumei",
+  "text": "Let's see what you've made."
+},
+
+{
+  "image": "assets/images/chapter2/scene2.webp",
+  "speaker": "",
+  "text": "You opened one of your projects on the laptop."
+},
+
+{
+  "image": "assets/images/chapter2/scene2.webp",
+  "speaker": "{username}",
+  "text": "https://rswarke1972-art.github.io/my-first-repo/"
+},
+
+{
+  "image": "assets/images/chapter2/scene2.webp",
+  "speaker": "{username}",
+  "text": "This is actually my first website."
+},
+
+{
+  "image": "assets/images/chapter2/scene2.webp",
+  "speaker": "{username}",
+  "text": "I made it completely using HTML."
+},
+
+{
+  "image": "assets/images/chapter2/scene2.webp",
+  "speaker": "{username}",
+  "text": "It works like this..."
+},
+
+{
+  "image": "assets/images/chapter2/scene2.webp",
+  "speaker": "{username}",
+  "text": "Semester subjects → chapters → topics → detailed explanations."
+},
+
+{
+  "image": "assets/images/chapter2/scene2.webp",
+  "speaker": "",
+  "text": "Yumei leaned a little closer to the laptop, carefully looking through the pages."
+},
+
+{
+  "image": "assets/images/chapter2/scene2.webp",
+  "speaker": "Yumei",
+  "text": "Wait..."
+},
+
+{
+  "image": "assets/images/chapter2/scene2.webp",
+  "speaker": "Yumei",
+  "text": "This is actually really useful."
+},
+
+{
+  "image": "assets/images/chapter2/scene2.webp",
+  "speaker": "Yumei",
+  "text": "We could even use this to revise our syllabus."
+},
+
+{
+  "image": "assets/images/chapter2/scene2.webp",
+  "speaker": "",
+  "text": "She looked genuinely impressed."
+},
+
+{
+  "image": "assets/images/chapter2/scene2.webp",
+  "speaker": "Yumei",
+  "text": "You made all of this by yourself?"
+},
+
+{
+  "image": "assets/images/chapter2/scene3.webp",
+  "speaker": "{username}",
+  "text": "Here's my second website."
+},
+
+{
+  "image": "assets/images/chapter2/scene3.webp",
+  "speaker": "{username}",
+  "text": "https://rswarke1972-art.github.io"
+},
+
+{
+  "image": "assets/images/chapter2/scene3.webp",
+  "speaker": "",
+  "text": "You switched to another project on the laptop."
+},
+
+{
+  "image": "assets/images/chapter2/scene3.webp",
+  "speaker": "{username}",
+  "text": "This one is a text-based strategy game."
+},
+
+{
+  "image": "assets/images/chapter2/scene3.webp",
+  "speaker": "{username}",
+  "text": "You're given a scenario, a task, and some available items."
+},
+
+{
+  "image": "assets/images/chapter2/scene3.webp",
+  "speaker": "{username}",
+  "text": "Then you have to come up with a strategy to solve the problem."
+},
+
+{
+  "image": "assets/images/chapter2/scene3.webp",
+  "speaker": "",
+  "text": "Yumei quietly looked through the screen for a moment."
+},
+
+{
+  "image": "assets/images/chapter2/scene3.webp",
+  "speaker": "Yumei",
+  "text": "I see..."
+},
+
+{
+  "image": "assets/images/chapter2/scene3.webp",
+  "speaker": "Yumei",
+  "text": "That's actually really impressive."
+},
+
+{
+  "image": "assets/images/chapter2/scene3.webp",
+  "speaker": "Yumei",
+  "text": "I can barely type properly on my phone sometimes..."
+},
+
+{
+  "image": "assets/images/chapter2/scene3.webp",
+  "speaker": "Yumei",
+  "text": "And here you are making entire websites."
+},
+
+{
+  "image": "assets/images/chapter2/scene3.webp",
+  "speaker": "",
+  "text": "There was genuine admiration in her voice."
+},
+
+{
+  "image": "assets/images/chapter2/scene3.webp",
+  "speaker": "{username}",
+  "text": "Thank you so much."
+},
+
+{
+  "image": "assets/images/chapter2/scene3.webp",
+  "speaker": "{username}",
+  "text": "But honestly..."
+},
+
+{
+  "image": "assets/images/chapter2/scene3.webp",
+  "speaker": "{username}",
+  "text": "Making websites like these really isn't a big deal."
+},
+
+{
+  "image": "assets/images/chapter2/scene3.webp",
+  "speaker": "{username}",
+  "text": "Anyone can learn if they spend enough time on it."
+},
+
+{
+  "image": "assets/images/chapter2/scene4.webp",
+  "speaker": "{username}",
+  "text": "This is my third website."
+},
+
+{
+  "image": "assets/images/chapter2/scene4.webp",
+  "speaker": "{username}",
+  "text": "https://rswarke1972-art.github.io/LexiVerse/"
+},
+
+{
+  "image": "assets/images/chapter2/scene4.webp",
+  "speaker": "",
+  "text": "You opened another project on the laptop."
+},
+
+{
+  "image": "assets/images/chapter2/scene4.webp",
+  "speaker": "Yumei",
+  "text": "What is this one for?"
+},
+
+{
+  "image": "assets/images/chapter2/scene4.webp",
+  "speaker": "{username}",
+  "text": "I think this one could actually help you improve your English vocabulary."
+},
+
+{
+  "image": "assets/images/chapter2/scene4.webp",
+  "speaker": "{username}",
+  "text": "It's called LexiVerse."
+},
+
+{
+  "image": "assets/images/chapter2/scene4.webp",
+  "speaker": "{username}",
+  "text": "The idea is to improve English and learn new vocabulary through stories."
+},
+
+{
+  "image": "assets/images/chapter2/scene4.webp",
+  "speaker": "",
+  "text": "Yumei leaned slightly closer to the screen."
+},
+
+{
+  "image": "assets/images/chapter2/scene4.webp",
+  "speaker": "Yumei",
+  "text": "Oh..."
+},
+
+{
+  "image": "assets/images/chapter2/scene4.webp",
+  "speaker": "{username}",
+  "text": "When you click on a word, you'll find its meaning, pronunciation, synonyms, antonyms..."
+},
+
+{
+  "image": "assets/images/chapter2/scene4.webp",
+  "speaker": "{username}",
+  "text": "You'll even see how the word changed and evolved over time."
+},
+
+{
+  "image": "assets/images/chapter2/scene4.webp",
+  "speaker": "",
+  "text": "For a moment, Yumei stayed quiet while looking through the website."
+},
+
+{
+  "image": "assets/images/chapter2/scene4.webp",
+  "speaker": "Yumei",
+  "text": "That's actually really amazing."
+},
+
+{
+  "image": "assets/images/chapter2/scene4.webp",
+  "speaker": "Yumei",
+  "text": "This could genuinely help people learn."
+},
+
+{
+  "image": "assets/images/chapter2/scene4.webp",
+  "speaker": "Yumei",
+  "text": "It's a really great website."
+},
+
+{
+  "image": "assets/images/chapter2/scene4.webp",
+  "speaker": "",
+  "text": "There was warmth in her voice as she looked back at you."
+},
+
+{
+  "image": "assets/images/chapter2/scene4.webp",
+  "speaker": "{username}",
+  "text": "Thank you so much, Yumei."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "{username}",
+  "text": "And this is actually my latest website."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "{username}",
+  "text": "https://rswarke1972-art.github.io/react-calculator/"
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "",
+  "text": "You switched to another project on the laptop."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "{username}",
+  "text": "It's a digital web calculator."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "",
+  "text": "Yumei looked through it quietly for a few moments."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "Yumei",
+  "text": "Good, good."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "Yumei",
+  "text": "But honestly..."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "Yumei",
+  "text": "I think I liked the third one the most."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "{username}",
+  "text": "Yeah..."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "{username}",
+  "text": "I think that's my favorite one too."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "",
+  "text": "For a brief moment, Yumei seemed to hesitate."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "Yumei",
+  "text": "Actually..."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "Yumei",
+  "text": "Me and my friend have been thinking about opening a website after school."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "{username}",
+  "text": "Really?"
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "Yumei",
+  "text": "Yeah."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "Yumei",
+  "text": "We translate manhwas and want to publish them there."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "{username}",
+  "text": "Oh, that's actually really nice."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "{username}",
+  "text": "You could suggest my websites to your friends too, if you'd like."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "",
+  "text": "A small smile appeared on Yumei’s face."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "Yumei",
+  "text": "Sure."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "Yumei",
+  "text": "I will."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "{username}",
+  "text": "You're really sweet."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "",
+  "text": "Yumei looked slightly embarrassed for a moment."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "Yumei",
+  "text": "Thanks."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "{username}",
+  "text": "Anyway..."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "{username}",
+  "text": "Good luck with your website idea."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "{username}",
+  "text": "And if you ever need help making it, you can ask me."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "Yumei",
+  "text": "I will."
+},
+
+{
+  "image": "assets/images/chapter2/scene5.webp",
+  "speaker": "Yumei",
+  "text": "Thank you."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "{username}",
+  "text": "So, Yumei..."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "{username}",
+  "text": "What are your hobbies?"
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "",
+  "text": "Yumei blinked for a second before quietly laughing."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "Yumei",
+  "text": "You already asked me that."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "Yumei",
+  "text": "I read manhwas and play mobile games."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "{username}",
+  "text": "Right..."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "{username}",
+  "text": "I remember now."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "{username}",
+  "text": "Do you have any questions you'd like to ask me?"
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "",
+  "text": "Yumei looked thoughtful for a moment."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "Yumei",
+  "text": "Honestly..."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "Yumei",
+  "text": "I don't usually ask people many questions."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "Yumei",
+  "text": "Sometimes I feel like I might make them uncomfortable."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "",
+  "text": "She paused for a moment."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "Yumei",
+  "text": "So..."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "Yumei",
+  "text": "I'll just ask you the same thing."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "Yumei",
+  "text": "What about your hobbies?"
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "{username}",
+  "text": "{user_hobbies}"
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "",
+  "text": "Yumei listened carefully."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "Yumei",
+  "text": "I see..."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "Yumei",
+  "text": "That's actually really interesting."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "{username}",
+  "text": "And don't worry."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "{username}",
+  "text": "You won't make me uncomfortable."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "{username}",
+  "text": "You can ask me anything you'd like."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "",
+  "text": "A small smile appeared on Yumei’s face."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "Yumei",
+  "text": "Thanks."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "Yumei",
+  "text": "So..."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "Yumei",
+  "text": "You're Indian, right?"
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "{username}",
+  "text": "Yes."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "{username}",
+  "text": "I'm Indian."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "Yumei",
+  "text": "That's nice."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "Yumei",
+  "text": "I'm actually really interested in Indian culture."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "Yumei",
+  "text": "Korean culture too."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "{username}",
+  "text": "That's really nice to hear."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "{username}",
+  "text": "Iraq seems like a really interesting country too."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "",
+  "text": "Yumei looked out the library window for a moment."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "Yumei",
+  "text": "Actually..."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "Yumei",
+  "text": "Kurdistan is a little different from the rest of Iraq."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "Yumei",
+  "text": "It's special in its own way."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "{username}",
+  "text": "Really?"
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "{username}",
+  "text": "This is actually the first time I've met someone from Iraq."
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "{username}",
+  "text": "Are people there usually kind and polite like you?"
+},
+
+{
+  "image": "assets/images/chapter2/scene6.webp",
+  "speaker": "{username}",
+  "text": "And what makes Kurdistan different?"
+},
+
+{
+  "image": "assets/images/chapter2/scene7.webp",
+  "speaker": "",
+  "text": "For a brief moment, Yumei grew quieter."
+},
+
+{
+  "image": "assets/images/chapter2/scene7.webp",
+  "speaker": "Yumei",
+  "text": "You see..."
+},
+
+{
+  "image": "assets/images/chapter2/scene7.webp",
+  "speaker": "Yumei",
+  "text": "Our language is different from Arabic."
+},
+
+{
+  "image": "assets/images/chapter2/scene7.webp",
+  "speaker": "Yumei",
+  "text": "Our culture is different."
+},
+
+{
+  "image": "assets/images/chapter2/scene7.webp",
+  "speaker": "Yumei",
+  "text": "Even our food feels different."
+},
+
+{
+  "image": "assets/images/chapter2/scene7.webp",
+  "speaker": "Yumei",
+  "text": "A lot about us feels separate."
+},
+
+{
+  "image": "assets/images/chapter2/scene7.webp",
+  "speaker": "",
+  "text": "Her expression softened."
+},
+
+{
+  "image": "assets/images/chapter2/scene7.webp",
+  "speaker": "",
+  "text": "There was a trace of emotion in her voice."
+},
+
+{
+  "image": "assets/images/chapter2/scene7.webp",
+  "speaker": "Yumei",
+  "text": "But Kurdish people are divided into different regions."
+},
+
+{
+  "image": "assets/images/chapter2/scene7.webp",
+  "speaker": "Yumei",
+  "text": "South Kurdistan, North Kurdistan, West Kurdistan, East Kurdistan..."
+},
+
+{
+  "image": "assets/images/chapter2/scene7.webp",
+  "speaker": "Yumei",
+  "text": "People often call the larger southern part Iraqi Kurdistan."
+},
+
+{
+  "image": "assets/images/chapter2/scene7.webp",
+  "speaker": "{username}",
+  "text": "Oh..."
+},
+
+{
+  "image": "assets/images/chapter2/scene7.webp",
+  "speaker": "{username}",
+  "text": "I think I understand now."
+},
+
+{
+  "image": "assets/images/chapter2/scene7.webp",
+  "speaker": "{username}",
+  "text": "So, do people from other parts of Iraq usually like Kurdish people?"
+},
+
+{
+  "image": "assets/images/chapter2/scene7.webp",
+  "speaker": "",
+  "text": "Yumei thought for a moment."
+},
+
+{
+  "image": "assets/images/chapter2/scene7.webp",
+  "speaker": "Yumei",
+  "text": "It's complicated."
+},
+
+{
+  "image": "assets/images/chapter2/scene7.webp",
+  "speaker": "Yumei",
+  "text": "Not really bad..."
+},
+
+{
+  "image": "assets/images/chapter2/scene7.webp",
+  "speaker": "Yumei",
+  "text": "But not especially good either."
+},
+
+{
+  "image": "assets/images/chapter2/scene7.webp",
+  "speaker": "{username}",
+  "text": "I see."
+},
+
+{
+  "image": "assets/images/chapter2/scene7.webp",
+  "speaker": "Yumei",
+  "text": "But my people there are really great."
+},
+
+{
+  "image": "assets/images/chapter2/scene7.webp",
+  "speaker": "",
+  "text": "The warmth in her voice returned."
+},
+
+{
+  "image": "assets/images/chapter2/scene7.webp",
+  "speaker": "{username}",
+  "text": "Since you're learning Korean..."
+},
+
+{
+  "image": "assets/images/chapter2/scene7.webp",
+  "speaker": "{username}",
+  "text": "Would you like to visit Korea someday?"
+},
+
+{
+  "image": "assets/images/chapter2/scene7.webp",
+  "speaker": "",
+  "text": "Yumei smiled immediately."
+},
+
+{
+  "image": "assets/images/chapter2/scene7.webp",
+  "speaker": "Yumei",
+  "text": "Of course."
+},
+
+{
+  "image": "assets/images/chapter2/scene7.webp",
+  "speaker": "Yumei",
+  "text": "I'd really love to."
+},
+
+{
+  "image": "assets/images/chapter2/scene8.webp",
+  "speaker": "Yumei",
+  "text": "That's actually one of my dreams."
+},
+
+{
+  "image": "assets/images/chapter2/scene8.webp",
+  "speaker": "{username}",
+  "text": "South Korea, right?"
+},
+
+{
+  "image": "assets/images/chapter2/scene8.webp",
+  "speaker": "{username}",
+  "text": "That's really nice to hear."
+},
+
+{
+  "image": "assets/images/chapter2/scene8.webp",
+  "speaker": "",
+  "text": "Yumei let out a small laugh."
+},
+
+{
+  "image": "assets/images/chapter2/scene8.webp",
+  "speaker": "Yumei",
+  "text": "Of course South Korea."
+},
+
+{
+  "image": "assets/images/chapter2/scene8.webp",
+  "speaker": "Yumei",
+  "text": "Who would willingly go to North Korea?"
+},
+
+{
+  "image": "assets/images/chapter2/scene8.webp",
+  "speaker": "{username}",
+  "text": "Yeah, fair enough."
+},
+
+{
+  "image": "assets/images/chapter2/scene8.webp",
+  "speaker": "{username}",
+  "text": "If someone accidentally ends up in North Korea..."
+},
+
+{
+  "image": "assets/images/chapter2/scene8.webp",
+  "speaker": "{username}",
+  "text": "Coming back alive might become the real challenge."
+},
+
+{
+  "image": "assets/images/chapter2/scene8.webp",
+  "speaker": "",
+  "text": "Yumei covered her mouth slightly, trying not to laugh too loudly in the quiet library."
+},
+
+{
+  "image": "assets/images/chapter2/scene8.webp",
+  "speaker": "Yumei",
+  "text": "That's actually so real."
+},
+
+{
+  "image": "assets/images/chapter2/scene8.webp",
+  "speaker": "{username}",
+  "text": "Yeah..."
+},
+
+{
+  "image": "assets/images/chapter2/scene8.webp",
+  "speaker": "{username}",
+  "text": "So what exactly attracts you to Indian culture?"
+},
+
+{
+  "image": "assets/images/chapter2/scene9.webp",
+  "speaker": "",
+  "text": "Yumei seemed to think for a moment."
+},
+
+{
+  "image": "assets/images/chapter2/scene9.webp",
+  "speaker": "Yumei",
+  "text": "Well..."
+},
+
+{
+  "image": "assets/images/chapter2/scene9.webp",
+  "speaker": "Yumei",
+  "text": "When I was younger, I used to watch a lot of Bollywood movies."
+},
+
+{
+  "image": "assets/images/chapter2/scene9.webp",
+  "speaker": "",
+  "text": "A small smile appeared on her face."
+},
+
+{
+  "image": "assets/images/chapter2/scene9.webp",
+  "speaker": "Yumei",
+  "text": "So I ended up finding Indian clothes really beautiful."
+},
+
+{
+  "image": "assets/images/chapter2/scene9.webp",
+  "speaker": "Yumei",
+  "text": "And honestly..."
+},
+
+{
+  "image": "assets/images/chapter2/scene9.webp",
+  "speaker": "Yumei",
+  "text": "Some of your food looks so delicious that I really want to try it someday."
+},
+
+{
+  "image": "assets/images/chapter2/scene9.webp",
+  "speaker": "Yumei",
+  "text": "There are also some places in India I'd love to visit."
+},
+
+{
+  "image": "assets/images/chapter2/scene9.webp",
+  "speaker": "Yumei",
+  "text": "And a lot of other things too."
+},
+
+{
+  "image": "assets/images/chapter2/scene9.webp",
+  "speaker": "{username}",
+  "text": "That's actually really nice to hear, Yumei."
+},
+
+{
+  "image": "assets/images/chapter2/scene9.webp",
+  "speaker": "{username}",
+  "text": "I think Bollywood is pretty popular in Middle Eastern countries too."
+},
+
+{
+  "image": "assets/images/chapter2/scene9.webp",
+  "speaker": "Yumei",
+  "text": "Yeah."
+},
+
+{
+  "image": "assets/images/chapter2/scene9.webp",
+  "speaker": "Yumei",
+  "text": "It really is."
+},
+
+{
+  "image": "assets/images/chapter2/scene9.webp",
+  "speaker": "{username}",
+  "text": "Though I should warn you..."
+},
+
+{
+  "image": "assets/images/chapter2/scene9.webp",
+  "speaker": "{username}",
+  "text": "Some Indian food might end up being way too spicy for you."
+},
+
+{
+  "image": "assets/images/chapter2/scene9.webp",
+  "speaker": "",
+  "text": "Yumei laughed softly."
+},
+
+{
+  "image": "assets/images/chapter2/scene9.webp",
+  "speaker": "Yumei",
+  "text": "Honestly, you're probably right."
+},
+
+{
+  "image": "assets/images/chapter2/scene9.webp",
+  "speaker": "Yumei",
+  "text": "Even though I eat spicy food..."
+},
+
+{
+  "image": "assets/images/chapter2/scene9.webp",
+  "speaker": "Yumei",
+  "text": "Indian spicy feels like an entirely different level."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "{username}",
+  "text": "Not all food here is spicy though."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "{username}",
+  "text": "Some dishes are, but definitely not everything."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "Yumei",
+  "text": "Right..."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "Yumei",
+  "text": "I actually want to try pani puri someday."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "Yumei",
+  "text": "There are quite a few Indian shops in Kurdistan now."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "{username}",
+  "text": "Really?"
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "{username}",
+  "text": "I used to eat pani puri all the time when I was a kid."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "{username}",
+  "text": "I'm honestly glad to hear Indian culture is becoming more common there."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "",
+  "text": "Yumei sighed softly."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "Yumei",
+  "text": "Unfortunately..."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "Yumei",
+  "text": "I still can't really buy it."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "Yumei",
+  "text": "The shops only exist in a few cities."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "{username}",
+  "text": "Oh..."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "{username}",
+  "text": "That's actually kind of sad."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "",
+  "text": "For a moment, Yumei looked thoughtful."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "Yumei",
+  "text": "From tomorrow, I really need to focus."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "Yumei",
+  "text": "Studies, a competition..."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "Yumei",
+  "text": "And website making too."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "{username}",
+  "text": "Can I tell you something?"
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "Yumei",
+  "text": "Sure."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "{username}",
+  "text": "If you're not used to studying for long hours..."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "{username}",
+  "text": "Try starting small."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "{username}",
+  "text": "If you try to suddenly change yourself too fast, you'll probably just get exhausted."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "{username}",
+  "text": "It's better to improve slowly."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "{username}",
+  "text": "Consistency matters more than intensity, Yumei."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "",
+  "text": "Yumei quietly nodded."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "Yumei",
+  "text": "Noted."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "Yumei",
+  "text": "Thanks."
+},
+
+{
+  "image": "assets/images/chapter2/scene10.webp",
+  "speaker": "{username}",
+  "text": "You're welcome."
+},
+
+{
+  "image": "assets/images/chapter2/scene11.webp",
+  "speaker": "",
+  "text": "The library slowly became quieter as time passed."
+},
+
+{
+  "image": "assets/images/chapter2/scene11.webp",
+  "speaker": "",
+  "text": "Sunlight faded across the wooden tables while students gradually packed their bags."
+},
+
+{
+  "image": "assets/images/chapter2/scene11.webp",
+  "speaker": "Yumei",
+  "text": "I should probably go now."
+},
+
+{
+  "image": "assets/images/chapter2/scene11.webp",
+  "speaker": "Yumei",
+  "text": "Thank you for helping me today."
+},
+
+{
+  "image": "assets/images/chapter2/scene11.webp",
+  "speaker": "Yumei",
+  "text": "And for listening too."
+},
+
+{
+  "image": "assets/images/chapter2/scene11.webp",
+  "speaker": "{username}",
+  "text": "Of course."
+},
+
+{
+  "image": "assets/images/chapter2/scene11.webp",
+  "speaker": "{username}",
+  "text": "Good luck with your studies and competition."
+},
+
+{
+  "image": "assets/images/chapter2/scene11.webp",
+  "speaker": "{username}",
+  "text": "And don't forget..."
+},
+
+{
+  "image": "assets/images/chapter2/scene11.webp",
+  "speaker": "{username}",
+  "text": "Small steps. Consistency."
+},
+
+{
+  "image": "assets/images/chapter2/scene11.webp",
+  "speaker": "",
+  "text": "Yumei smiled softly."
+},
+
+{
+  "image": "assets/images/chapter2/scene11.webp",
+  "speaker": "Yumei",
+  "text": "Noted."
+},
+
+{
+  "image": "assets/images/chapter2/scene11.webp",
+  "speaker": "Yumei",
+  "text": "See you tomorrow."
+},
+
+{
+  "image": "assets/images/chapter2/scene11.webp",
+  "speaker": "",
+  "text": "For some reason, the library felt a little quieter after she left."
+},
+
+{
+  "image": "assets/images/chapter2/scene11.webp",
+  "speaker": "",
+  "text": "End of Chapter 2"
+}
+  ],
+
+  "chapter3":[
+    {
+  "image": "assets/images/chapter3/scene1.webp",
+  "speaker": "",
+  "text": "The next morning felt quieter than usual."
+},
+
+{
+  "image": "assets/images/chapter3/scene1.webp",
+  "speaker": "",
+  "text": "As students slowly settled into the classroom, Yumei quietly walked over and sat beside you."
+},
+
+{
+  "image": "assets/images/chapter3/scene1.webp",
+  "speaker": "{username}",
+  "text": "Hey, Yumei."
+},
+
+{
+  "image": "assets/images/chapter3/scene1.webp",
+  "speaker": "Yumei",
+  "text": "Hey, {username}."
+},
+
+{
+  "image": "assets/images/chapter3/scene1.webp",
+  "speaker": "{username}",
+  "text": "How are you doing today?"
+},
+
+{
+  "image": "assets/images/chapter3/scene1.webp",
+  "speaker": "",
+  "text": "Yumei hesitated for a moment."
+},
+
+{
+  "image": "assets/images/chapter3/scene1.webp",
+  "speaker": "Yumei",
+  "text": "Honestly..."
+},
+
+{
+  "image": "assets/images/chapter3/scene1.webp",
+  "speaker": "Yumei",
+  "text": "Not that good today."
+},
+
+{
+  "image": "assets/images/chapter3/scene1.webp",
+  "speaker": "{username}",
+  "text": "Really?"
+},
+
+{
+  "image": "assets/images/chapter3/scene1.webp",
+  "speaker": "{username}",
+  "text": "Did something happen?"
+},
+
+{
+  "image": "assets/images/chapter3/scene1.webp",
+  "speaker": "Yumei",
+  "text": "No..."
+},
+
+{
+  "image": "assets/images/chapter3/scene1.webp",
+  "speaker": "Yumei",
+  "text": "Nothing happened."
+},
+
+{
+  "image": "assets/images/chapter3/scene1.webp",
+  "speaker": "Yumei",
+  "text": "It's just..."
+},
+
+{
+  "image": "assets/images/chapter3/scene1.webp",
+  "speaker": "Yumei",
+  "text": "Our exams are getting really close."
+},
+
+{
+  "image": "assets/images/chapter3/scene1.webp",
+  "speaker": "Yumei",
+  "text": "And I feel kind of nervous."
+},
+
+{
+  "image": "assets/images/chapter3/scene2.webp",
+  "speaker": "",
+  "text": "A small smile appeared on your face."
+},
+
+{
+  "image": "assets/images/chapter3/scene2.webp",
+  "speaker": "{username}",
+  "text": "Oh?"
+},
+
+{
+  "image": "assets/images/chapter3/scene2.webp",
+  "speaker": "{username}",
+  "text": "So even school toppers get nervous before exams?"
+},
+
+{
+  "image": "assets/images/chapter3/scene2.webp",
+  "speaker": "",
+  "text": "Yumei immediately frowned."
+},
+
+{
+  "image": "assets/images/chapter3/scene2.webp",
+  "speaker": "",
+  "text": "She crossed her arms slightly and puffed her cheeks in protest."
+},
+
+{
+  "image": "assets/images/chapter3/scene2.webp",
+  "speaker": "Yumei",
+  "text": "Hey..."
+},
+
+{
+  "image": "assets/images/chapter3/scene2.webp",
+  "speaker": "Yumei",
+  "text": "Don't make fun of me."
+},
+
+{
+  "image": "assets/images/chapter3/scene2.webp",
+  "speaker": "Yumei",
+  "text": "I always get nervous before exams."
+},
+
+{
+  "image": "assets/images/chapter3/scene2.webp",
+  "speaker": "Yumei",
+  "text": "Meanwhile, you look way too confident."
+},
+
+{
+  "image": "assets/images/chapter3/scene2.webp",
+  "speaker": "{username}",
+  "text": "Confident?"
+},
+
+{
+  "image": "assets/images/chapter3/scene2.webp",
+  "speaker": "{username}",
+  "text": "You could also say..."
+},
+
+{
+  "image": "assets/images/chapter3/scene2.webp",
+  "speaker": "{username}",
+  "text": "I just don't care that much."
+},
+
+{
+  "image": "assets/images/chapter3/scene2.webp",
+  "speaker": "",
+  "text": "Yumei looked at you for a second."
+},
+
+{
+  "image": "assets/images/chapter3/scene2.webp",
+  "speaker": "Yumei",
+  "text": "Ah ha..."
+},
+
+{
+  "image": "assets/images/chapter3/scene2.webp",
+  "speaker": "Yumei",
+  "text": "So that's your secret?"
+},
+
+{
+  "image": "assets/images/chapter3/scene3.webp",
+  "speaker": "",
+  "text": "You laughed awkwardly."
+},
+
+{
+  "image": "assets/images/chapter3/scene3.webp",
+  "speaker": "{username}",
+  "text": "Alright, alright..."
+},
+
+{
+  "image": "assets/images/chapter3/scene3.webp",
+  "speaker": "{username}",
+  "text": "Sorry."
+},
+
+{
+  "image": "assets/images/chapter3/scene3.webp",
+  "speaker": "{username}",
+  "text": "My bad."
+},
+
+{
+  "image": "assets/images/chapter3/scene3.webp",
+  "speaker": "",
+  "text": "Yumei narrowed her eyes slightly."
+},
+
+{
+  "image": "assets/images/chapter3/scene3.webp",
+  "speaker": "Yumei",
+  "text": "It's okay."
+},
+
+{
+  "image": "assets/images/chapter3/scene3.webp",
+  "speaker": "",
+  "text": "Her overly serious tone made it obvious she was being sarcastic."
+},
+
+{
+  "image": "assets/images/chapter3/scene3.webp",
+  "speaker": "{username}",
+  "text": "Anyway..."
+},
+
+{
+  "image": "assets/images/chapter3/scene3.webp",
+  "speaker": "{username}",
+  "text": "The timetable isn't out yet, but I'm pretty sure biology will be the first exam."
+},
+
+{
+  "image": "assets/images/chapter3/scene3.webp",
+  "speaker": "",
+  "text": "Yumei immediately looked unamused."
+},
+
+{
+  "image": "assets/images/chapter3/scene3.webp",
+  "speaker": "Yumei",
+  "text": "Biology is kind of hard, you know."
+},
+
+{
+  "image": "assets/images/chapter3/scene3.webp",
+  "speaker": "Yumei",
+  "text": "And honestly..."
+},
+
+{
+  "image": "assets/images/chapter3/scene3.webp",
+  "speaker": "Yumei",
+  "text": "I really hate it."
+},
+
+{
+  "image": "assets/images/chapter3/scene3.webp",
+  "speaker": "{username}",
+  "text": "Yeah..."
+},
+
+{
+  "image": "assets/images/chapter3/scene3.webp",
+  "speaker": "{username}",
+  "text": "I used to dislike biology too."
+},
+
+{
+  "image": "assets/images/chapter3/scene3.webp",
+  "speaker": "{username}",
+  "text": "It always felt difficult for me."
+},
+
+{
+  "image": "assets/images/chapter3/scene3.webp",
+  "speaker": "{username}",
+  "text": "But let me tell you something important."
+},
+
+{
+  "image": "assets/images/chapter3/scene3.webp",
+  "speaker": "{username}",
+  "text": "Whenever a problem comes in life..."
+},
+
+{
+  "image": "assets/images/chapter3/scene3.webp",
+  "speaker": "{username}",
+  "text": "Either accept it..."
+},
+
+{
+  "image": "assets/images/chapter3/scene3.webp",
+  "speaker": "{username}",
+  "text": "Or solve it."
+},
+
+{
+  "image": "assets/images/chapter3/scene3.webp",
+  "speaker": "{username}",
+  "text": "Because worrying about the problem usually doesn't solve anything."
+},
+
+{
+  "image": "assets/images/chapter3/scene3.webp",
+  "speaker": "",
+  "text": "Yumei quietly listened."
+},
+
+{
+  "image": "assets/images/chapter3/scene3.webp",
+  "speaker": "Yumei",
+  "text": "I'll keep that in mind."
+},
+
+{
+  "image": "assets/images/chapter3/scene3.webp",
+  "speaker": "Yumei",
+  "text": "Thanks."
+},
+
+{
+  "image": "assets/images/chapter3/scene4.webp",
+  "speaker": "{username}",
+  "text": "So..."
+},
+
+{
+  "image": "assets/images/chapter3/scene4.webp",
+  "speaker": "{username}",
+  "text": "How are you planning to solve this problem, Yumei?"
+},
+
+{
+  "image": "assets/images/chapter3/scene4.webp",
+  "speaker": "",
+  "text": "Yumei looked slightly confused for a second."
+},
+
+{
+  "image": "assets/images/chapter3/scene4.webp",
+  "speaker": "Yumei",
+  "text": "I'm going to study?"
+},
+
+{
+  "image": "assets/images/chapter3/scene4.webp",
+  "speaker": "",
+  "text": "She answered as if the answer was obvious."
+},
+
+{
+  "image": "assets/images/chapter3/scene4.webp",
+  "speaker": "{username}",
+  "text": "Fair enough."
+},
+
+{
+  "image": "assets/images/chapter3/scene4.webp",
+  "speaker": "{username}",
+  "text": "Which subject do you like the most then?"
+},
+
+{
+  "image": "assets/images/chapter3/scene4.webp",
+  "speaker": "Yumei",
+  "text": "Probably English and Physics."
+},
+
+{
+  "image": "assets/images/chapter3/scene4.webp",
+  "speaker": "Yumei",
+  "text": "Chemistry is nice too."
+},
+
+{
+  "image": "assets/images/chapter3/scene4.webp",
+  "speaker": "{username}",
+  "text": "Oh..."
+},
+
+{
+  "image": "assets/images/chapter3/scene4.webp",
+  "speaker": "{username}",
+  "text": "So do you like maths too?"
+},
+
+{
+  "image": "assets/images/chapter3/scene4.webp",
+  "speaker": "",
+  "text": "Yumei immediately looked traumatized."
+},
+
+{
+  "image": "assets/images/chapter3/scene4.webp",
+  "speaker": "Yumei",
+  "text": "Math is my nightmare."
+},
+
+{
+  "image": "assets/images/chapter3/scene4.webp",
+  "speaker": "Yumei",
+  "text": "But..."
+},
+
+{
+  "image": "assets/images/chapter3/scene4.webp",
+  "speaker": "Yumei",
+  "text": "I'm trying to convince myself to love it."
+},
+
+{
+  "image": "assets/images/chapter3/scene4.webp",
+  "speaker": "{username}",
+  "text": "Honestly..."
+},
+
+{
+  "image": "assets/images/chapter3/scene4.webp",
+  "speaker": "{username}",
+  "text": "Math is a nightmare for a lot of students here too."
+},
+
+{
+  "image": "assets/images/chapter3/scene4.webp",
+  "speaker": "{username}",
+  "text": "But that's the spirit."
+},
+
+{
+  "image": "assets/images/chapter3/scene4.webp",
+  "speaker": "{username}",
+  "text": "I actually love maths."
+},
+
+{
+  "image": "assets/images/chapter3/scene4.webp",
+  "speaker": "",
+  "text": "Yumei stared at you for a second."
+},
+
+{
+  "image": "assets/images/chapter3/scene4.webp",
+  "speaker": "Yumei",
+  "text": "Yeah..."
+},
+
+{
+  "image": "assets/images/chapter3/scene4.webp",
+  "speaker": "Yumei",
+  "text": "We definitely love maths so much."
+},
+
+{
+  "image": "assets/images/chapter3/scene4.webp",
+  "speaker": "",
+  "text": "The sarcasm in her voice was impossible to miss."
+},
+
+{
+  "image": "assets/images/chapter3/scene4.webp",
+  "speaker": "{username}",
+  "text": "That's the engineering spirit."
+},
+
+{
+  "image": "assets/images/chapter3/scene5.webp",
+  "speaker": "{username}",
+  "text": "So..."
+},
+
+{
+  "image": "assets/images/chapter3/scene5.webp",
+  "speaker": "{username}",
+  "text": "What part of biology feels the hardest to you?"
+},
+
+{
+  "image": "assets/images/chapter3/scene5.webp",
+  "speaker": "Yumei",
+  "text": "Anything related to the human body."
+},
+
+{
+  "image": "assets/images/chapter3/scene5.webp",
+  "speaker": "Yumei",
+  "text": "That part always confuses me."
+},
+
+{
+  "image": "assets/images/chapter3/scene5.webp",
+  "speaker": "{username}",
+  "text": "Fair enough."
+},
+
+{
+  "image": "assets/images/chapter3/scene5.webp",
+  "speaker": "{username}",
+  "text": "Then what feels easiest to you?"
+},
+
+{
+  "image": "assets/images/chapter3/scene5.webp",
+  "speaker": "Yumei",
+  "text": "You know Mendel?"
+},
+
+{
+  "image": "assets/images/chapter3/scene5.webp",
+  "speaker": "{username}",
+  "text": "Yeah, of course."
+},
+
+{
+  "image": "assets/images/chapter3/scene5.webp",
+  "speaker": "{username}",
+  "text": "Honestly, that feels easiest to me too."
+},
+
+{
+  "image": "assets/images/chapter3/scene5.webp",
+  "speaker": "{username}",
+  "text": "How much do you still have left to study for the exam?"
+},
+
+{
+  "image": "assets/images/chapter3/scene5.webp",
+  "speaker": "Yumei",
+  "text": "I've already studied everything."
+},
+
+{
+  "image": "assets/images/chapter3/scene5.webp",
+  "speaker": "Yumei",
+  "text": "I just need to review now."
+},
+
+{
+  "image": "assets/images/chapter3/scene5.webp",
+  "speaker": "",
+  "text": "A small smile appeared on your face."
+},
+
+{
+  "image": "assets/images/chapter3/scene5.webp",
+  "speaker": "{username}",
+  "text": "Exactly what I expected from a topper."
+},
+
+{
+  "image": "assets/images/chapter3/scene5.webp",
+  "speaker": "",
+  "text": "Yumei immediately looked slightly annoyed."
+},
+
+{
+  "image": "assets/images/chapter3/scene5.webp",
+  "speaker": "Yumei",
+  "text": "Can you stop calling me topper again and again?"
+},
+
+{
+  "image": "assets/images/chapter3/scene5.webp",
+  "speaker": "Yumei",
+  "text": "I have a name, mister."
+},
+
+{
+  "image": "assets/images/chapter3/scene5.webp",
+  "speaker": "{username}",
+  "text": "But you are a topper."
+},
+
+{
+  "image": "assets/images/chapter3/scene5.webp",
+  "speaker": "",
+  "text": "Yumei looked at you for a second before smiling faintly."
+},
+
+{
+  "image": "assets/images/chapter3/scene5.webp",
+  "speaker": "Yumei",
+  "text": "Maybe this time you'll beat me."
+},
+
+{
+  "image": "assets/images/chapter3/scene5.webp",
+  "speaker": "{username}",
+  "text": "We'll see."
+},
+
+{
+  "image": "assets/images/chapter3/scene5.webp",
+  "speaker": "{username}",
+  "text": "But seriously..."
+},
+
+{
+  "image": "assets/images/chapter3/scene5.webp",
+  "speaker": "{username}",
+  "text": "I wish you all the best for your exam."
+},
+
+{
+  "image": "assets/images/chapter3/scene5.webp",
+  "speaker": "Yumei",
+  "text": "Thanks."
+},
+
+{
+  "image": "assets/images/chapter3/scene6.webp",
+  "speaker": "{username}",
+  "text": "And one more thing..."
+},
+
+{
+  "image": "assets/images/chapter3/scene6.webp",
+  "speaker": "{username}",
+  "text": "I think you should be a little more confident in yourself."
+},
+
+{
+  "image": "assets/images/chapter3/scene6.webp",
+  "speaker": "",
+  "text": "Yumei immediately puffed her cheeks even more."
+},
+
+{
+  "image": "assets/images/chapter3/scene6.webp",
+  "speaker": "",
+  "text": "She crossed her arms dramatically."
+},
+
+{
+  "image": "assets/images/chapter3/scene6.webp",
+  "speaker": "Yumei",
+  "text": "Heyyy..."
+},
+
+{
+  "image": "assets/images/chapter3/scene6.webp",
+  "speaker": "Yumei",
+  "text": "I'm actually really confident."
+},
+
+{
+  "image": "assets/images/chapter3/scene6.webp",
+  "speaker": "Yumei",
+  "text": "Confident enough to walk into the exam hall without studying..."
+},
+
+{
+  "image": "assets/images/chapter3/scene6.webp",
+  "speaker": "Yumei",
+  "text": "And still somehow get my marks."
+},
+
+{
+  "image": "assets/images/chapter3/scene6.webp",
+  "speaker": "",
+  "text": "Despite the pout, there was obvious confidence hiding behind her words."
+},
+
+{
+  "image": "assets/images/chapter3/scene6.webp",
+  "speaker": "{username}",
+  "text": "Okay okay..."
+},
+
+{
+  "image": "assets/images/chapter3/scene6.webp",
+  "speaker": "{username}",
+  "text": "Maybe I underestimated the legendary topper."
+},
+
+{
+  "image": "assets/images/chapter3/scene7.webp",
+  "speaker": "{username}",
+  "text": "Of course you are."
+},
+
+{
+  "image": "assets/images/chapter3/scene7.webp",
+  "speaker": "{username}",
+  "text": "It's just..."
+},
+
+{
+  "image": "assets/images/chapter3/scene7.webp",
+  "speaker": "{username}",
+  "text": "Sometimes you seem really quiet."
+},
+
+{
+  "image": "assets/images/chapter3/scene7.webp",
+  "speaker": "{username}",
+  "text": "Like you hesitate before asking or saying something."
+},
+
+{
+  "image": "assets/images/chapter3/scene7.webp",
+  "speaker": "",
+  "text": "Yumei suddenly looked slightly surprised."
+},
+
+{
+  "image": "assets/images/chapter3/scene7.webp",
+  "speaker": "",
+  "text": "A faint blush appeared on her face."
+},
+
+{
+  "image": "assets/images/chapter3/scene7.webp",
+  "speaker": "Yumei",
+  "text": "Oh..."
+},
+
+{
+  "image": "assets/images/chapter3/scene7.webp",
+  "speaker": "Yumei",
+  "text": "You mean that."
+},
+
+{
+  "image": "assets/images/chapter3/scene7.webp",
+  "speaker": "Yumei",
+  "text": "I'm actually not really an extrovert person."
+},
+
+{
+  "image": "assets/images/chapter3/scene7.webp",
+  "speaker": "Yumei",
+  "text": "So talking sometimes feels a little difficult for me."
+},
+
+{
+  "image": "assets/images/chapter3/scene7.webp",
+  "speaker": "",
+  "text": "She looked away for a second."
+},
+
+{
+  "image": "assets/images/chapter3/scene7.webp",
+  "speaker": "Yumei",
+  "text": "Anyway..."
+},
+
+{
+  "image": "assets/images/chapter3/scene7.webp",
+  "speaker": "Yumei",
+  "text": "I should probably study now."
+},
+
+{
+  "image": "assets/images/chapter3/scene7.webp",
+  "speaker": "Yumei",
+  "text": "So please excuse me."
+},
+
+{
+  "image": "assets/images/chapter3/scene7.webp",
+  "speaker": "",
+  "text": "You let out a small chuckle."
+},
+
+{
+  "image": "assets/images/chapter3/scene7.webp",
+  "speaker": "{username}",
+  "text": "Yeah..."
+},
+
+{
+  "image": "assets/images/chapter3/scene7.webp",
+  "speaker": "{username}",
+  "text": "I understand."
+},
+
+{
+  "image": "assets/images/chapter3/scene7.webp",
+  "speaker": "{username}",
+  "text": "Alright then."
+},
+
+{
+  "image": "assets/images/chapter3/scene7.webp",
+  "speaker": "{username}",
+  "text": "Bye, Yumei."
+},
+
+{
+  "image": "assets/images/chapter3/scene7.webp",
+  "speaker": "",
+  "text": "Yumei hesitated for a brief moment."
+},
+
+{
+  "image": "assets/images/chapter3/scene7.webp",
+  "speaker": "",
+  "text": "The blush on her cheeks still hadn't disappeared."
+},
+
+{
+  "image": "assets/images/chapter3/scene7.webp",
+  "speaker": "Yumei",
+  "text": "...Yeah."
+},
+
+{
+  "image": "assets/images/chapter3/scene7.webp",
+  "speaker": "Yumei",
+  "text": "Bye."
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "",
+  "text": "After a while, Yumei quietly looked up from her studies."
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "{username}",
+  "text": "Yumei..."
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "{username}",
+  "text": "Are you done now?"
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "Yumei",
+  "text": "Yeah."
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "Yumei",
+  "text": "I finished."
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "",
+  "text": "She hesitated for a moment before speaking again."
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "Yumei",
+  "text": "Actually..."
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "Yumei",
+  "text": "I was thinking about talking with you."
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "Yumei",
+  "text": "But I couldn't think of anything to talk about."
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "",
+  "text": "You laughed softly."
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "{username}",
+  "text": "Honestly..."
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "{username}",
+  "text": "I was thinking of talking to you too."
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "{username}",
+  "text": "But I hesitated."
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "{username}",
+  "text": "I thought maybe you'd think I'm being too clingy."
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "",
+  "text": "Yumei looked genuinely surprised."
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "Yumei",
+  "text": "Oh please."
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "Yumei",
+  "text": "Don't think like that."
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "Yumei",
+  "text": "I actually like talking with my friends."
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "{username}",
+  "text": "Thanks."
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "{username}",
+  "text": "And same here."
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "{username}",
+  "text": "You can talk to me whenever you want."
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "Yumei",
+  "text": "Thanks."
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "{username}",
+  "text": "Honestly..."
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "{username}",
+  "text": "I had a feeling you wanted to talk but were hesitating to ask."
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "",
+  "text": "Yumei blinked for a second."
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "Yumei",
+  "text": "Yep."
+},
+
+{
+  "image": "assets/images/chapter3/scene8.webp",
+  "speaker": "Yumei",
+  "text": "You're right."
+},
+
+{
+  "image": "assets/images/chapter3/scene9.webp",
+  "speaker": "{username}",
+  "text": "You seem really shy sometimes."
+},
+
+{
+  "image": "assets/images/chapter3/scene9.webp",
+  "speaker": "",
+  "text": "Yumei thought for a moment."
+},
+
+{
+  "image": "assets/images/chapter3/scene9.webp",
+  "speaker": "Yumei",
+  "text": "I don't know if shy is the right word..."
+},
+
+{
+  "image": "assets/images/chapter3/scene9.webp",
+  "speaker": "Yumei",
+  "text": "It's just that I'm not really good at making conversations."
+},
+
+{
+  "image": "assets/images/chapter3/scene9.webp",
+  "speaker": "{username}",
+  "text": "Yeah..."
+},
+
+{
+  "image": "assets/images/chapter3/scene9.webp",
+  "speaker": "{username}",
+  "text": "I kind of noticed that already."
+},
+
+{
+  "image": "assets/images/chapter3/scene9.webp",
+  "speaker": "{username}",
+  "text": "But you're polite too."
+},
+
+{
+  "image": "assets/images/chapter3/scene9.webp",
+  "speaker": "{username}",
+  "text": "And honestly, that's a really good thing."
+},
+
+{
+  "image": "assets/images/chapter3/scene9.webp",
+  "speaker": "",
+  "text": "A faint blush slowly spread across Yumei's face."
+},
+
+{
+  "image": "assets/images/chapter3/scene9.webp",
+  "speaker": "Yumei",
+  "text": "Thank you..."
+},
+
+{
+  "image": "assets/images/chapter3/scene9.webp",
+  "speaker": "Yumei",
+  "text": "For thinking that way about me."
+},
+
+{
+  "image": "assets/images/chapter3/scene9.webp",
+  "speaker": "{username}",
+  "text": "You're sweet too."
+},
+
+{
+  "image": "assets/images/chapter3/scene9.webp",
+  "speaker": "",
+  "text": "Yumei froze for a second."
+},
+
+{
+  "image": "assets/images/chapter3/scene9.webp",
+  "speaker": "",
+  "text": "Her face turned noticeably red."
+},
+
+{
+  "image": "assets/images/chapter3/scene9.webp",
+  "speaker": "Yumei",
+  "text": "T-That was bold..."
+},
+
+{
+  "image": "assets/images/chapter3/scene9.webp",
+  "speaker": "Yumei",
+  "text": "But honestly..."
+},
+
+{
+  "image": "assets/images/chapter3/scene9.webp",
+  "speaker": "Yumei",
+  "text": "You seem really mature."
+},
+
+{
+  "image": "assets/images/chapter3/scene9.webp",
+  "speaker": "Yumei",
+  "text": "The kind of things you say..."
+},
+
+{
+  "image": "assets/images/chapter3/scene9.webp",
+  "speaker": "Yumei",
+  "text": "They're actually pretty rare."
+},
+
+{
+  "image": "assets/images/chapter3/scene9.webp",
+  "speaker": "Yumei",
+  "text": "People our age nowadays mostly care about useless things."
+},
+
+{
+  "image": "assets/images/chapter3/scene9.webp",
+  "speaker": "",
+  "text": "She looked away, still embarrassed."
+},
+
+{
+  "image": "assets/images/chapter3/scene9.webp",
+  "speaker": "Yumei",
+  "text": "But please..."
+},
+
+{
+  "image": "assets/images/chapter3/scene9.webp",
+  "speaker": "Yumei",
+  "text": "No more compliments."
+},
+
+{
+  "image": "assets/images/chapter3/scene9.webp",
+  "speaker": "{username}",
+  "text": "Why not?"
+},
+
+{
+  "image": "assets/images/chapter3/scene9.webp",
+  "speaker": "{username}",
+  "text": "I'm only saying the truth."
+},
+
+{
+  "image": "assets/images/chapter3/scene9.webp",
+  "speaker": "{username}",
+  "text": "You're mature too."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "{username}",
+  "text": "Okay okay..."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "{username}",
+  "text": "By the way..."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "{username}",
+  "text": "You told me your dream is to go to South Korea someday."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "{username}",
+  "text": "What attracts you there so much?"
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "Yumei",
+  "text": "The food."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "Yumei",
+  "text": "I really like Korean food."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "{username}",
+  "text": "Yeah..."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "{username}",
+  "text": "The way they show food always makes it look really delicious."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "Yumei",
+  "text": "And you know..."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "Yumei",
+  "text": "Girls usually like skincare and stuff."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "Yumei",
+  "text": "So I want to try their skincare products too."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "Yumei",
+  "text": "They're popular and seem really good."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "Yumei",
+  "text": "I also love their culture."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "{username}",
+  "text": "That's nice."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "{username}",
+  "text": "South Korea is really famous for cosmetics."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "{username}",
+  "text": "And plastic surgery too."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "Yumei",
+  "text": "I'm not really into plastic surgery that much."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "Yumei",
+  "text": "But honestly..."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "Yumei",
+  "text": "Those doctors are really skilled."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "{username}",
+  "text": "That's fair."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "{username}",
+  "text": "There are a lot more things about South Korea besides that."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "{username}",
+  "text": "And yeah, those doctors are professionals."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "Yumei",
+  "text": "They're smart."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "Yumei",
+  "text": "I really want to study in a Korean college someday."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "{username}",
+  "text": "Oh, that's nice."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "{username}",
+  "text": "I'd like to go to South Korea for college too."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "",
+  "text": "Yumei suddenly became quiet for a second."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "",
+  "text": "She quietly mumbled something under her breath."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "Yumei",
+  "text": "For college only..."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "",
+  "text": "She quickly shook her head and tried to act normal again."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "Yumei",
+  "text": "I mean..."
+},
+
+{
+  "image": "assets/images/chapter3/scene10.webp",
+  "speaker": "Yumei",
+  "text": "It's actually a really good country for college."
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "Yumei",
+  "text": "Honestly..."
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "Yumei",
+  "text": "Home is better than everywhere else, right?"
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "{username}",
+  "text": "Yeah."
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "{username}",
+  "text": "Home is my favorite place too."
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "Yumei",
+  "text": "Yours is India."
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "Yumei",
+  "text": "Mine is Kurdistan."
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "Yumei",
+  "text": "Honestly..."
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "Yumei",
+  "text": "Even if something bad happened to me someday..."
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "Yumei",
+  "text": "I'd rather it happen there than anywhere else."
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "",
+  "text": "She smiled awkwardly."
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "Yumei",
+  "text": "Maybe I love my place a little too much."
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "{username}",
+  "text": "I understand loving your home."
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "{username}",
+  "text": "But honestly..."
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "{username}",
+  "text": "I wouldn't suggest becoming too attached to one place."
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "{username}",
+  "text": "Loving home is good."
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "{username}",
+  "text": "But too much attachment can sometimes stop us from growing."
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "{username}",
+  "text": "Think of it like this..."
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "",
+  "text": "Yumei quietly listened."
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "Yumei",
+  "text": "Hmm..."
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "Yumei",
+  "text": "That's actually true."
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "{username}",
+  "text": "For me..."
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "{username}",
+  "text": "If something happens, I'll try to accept it and deal with it."
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "{username}",
+  "text": "I trust myself enough to handle things."
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "{username}",
+  "text": "Whether I'm home or somewhere completely unfamiliar."
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "{username}",
+  "text": "I'm glad you understood, Yumei."
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "Yumei",
+  "text": "Thanks."
+},
+
+{
+  "image": "assets/images/chapter3/scene11.webp",
+  "speaker": "Yumei",
+  "text": "I'll keep that in mind."
+},
+
+{
+  "image": "assets/images/chapter3/scene12.webp",
+  "speaker": "{username}",
+  "text": "By the way..."
+},
+
+{
+  "image": "assets/images/chapter3/scene12.webp",
+  "speaker": "{username}",
+  "text": "What do you usually do during holidays, Yumei?"
+},
+
+{
+  "image": "assets/images/chapter3/scene12.webp",
+  "speaker": "Yumei",
+  "text": "You mean the school break we had?"
+},
+
+{
+  "image": "assets/images/chapter3/scene12.webp",
+  "speaker": "{username}",
+  "text": "Yeah."
+},
+
+{
+  "image": "assets/images/chapter3/scene12.webp",
+  "speaker": "",
+  "text": "Yumei thought for a moment while walking beside you."
+},
+
+{
+  "image": "assets/images/chapter3/scene12.webp",
+  "speaker": "Yumei",
+  "text": "Cleaning the house."
+},
+
+{
+  "image": "assets/images/chapter3/scene12.webp",
+  "speaker": "Yumei",
+  "text": "Buying sweets."
+},
+
+{
+  "image": "assets/images/chapter3/scene12.webp",
+  "speaker": "Yumei",
+  "text": "Baking cookies sometimes."
+},
+
+{
+  "image": "assets/images/chapter3/scene12.webp",
+  "speaker": "Yumei",
+  "text": "And a lot more random things."
+},
+
+{
+  "image": "assets/images/chapter3/scene12.webp",
+  "speaker": "{username}",
+  "text": "Oh."
+},
+
+{
+  "image": "assets/images/chapter3/scene12.webp",
+  "speaker": "{username}",
+  "text": "That's actually really nice."
+},
+
+{
+  "image": "assets/images/chapter3/scene12.webp",
+  "speaker": "",
+  "text": "Yumei glanced toward you curiously."
+},
+
+{
+  "image": "assets/images/chapter3/scene12.webp",
+  "speaker": "Yumei",
+  "text": "What about you?"
+},
+
+{
+  "image": "assets/images/chapter3/scene12.webp",
+  "speaker": "{username}",
+  "text": "Mostly reading books."
+},
+
+{
+  "image": "assets/images/chapter3/scene12.webp",
+  "speaker": "{username}",
+  "text": "And coding."
+},
+
+{
+  "image": "assets/images/chapter3/scene12.webp",
+  "speaker": "",
+  "text": "Yumei smirked a little."
+},
+
+{
+  "image": "assets/images/chapter3/scene12.webp",
+  "speaker": "Yumei",
+  "text": "As expected."
+},
+
+{
+  "image": "assets/images/chapter3/scene13.webp",
+  "speaker": "",
+  "text": "The evening hallway became quieter as both of you kept walking."
+},
+
+{
+  "image": "assets/images/chapter3/scene13.webp",
+  "speaker": "{username}",
+  "text": "You know..."
+},
+
+{
+  "image": "assets/images/chapter3/scene13.webp",
+  "speaker": "{username}",
+  "text": "You're quiet..."
+},
+
+{
+  "image": "assets/images/chapter3/scene13.webp",
+  "speaker": "{username}",
+  "text": "But you're actually kind of adorable too."
+},
+
+{
+  "image": "assets/images/chapter3/scene13.webp",
+  "speaker": "",
+  "text": "Yumei instantly froze."
+},
+
+{
+  "image": "assets/images/chapter3/scene13.webp",
+  "speaker": "",
+  "text": "Her cheeks turned pink almost immediately."
+},
+
+{
+  "image": "assets/images/chapter3/scene13.webp",
+  "speaker": "Yumei",
+  "text": "Come on..."
+},
+
+{
+  "image": "assets/images/chapter3/scene13.webp",
+  "speaker": "Yumei",
+  "text": "Don't start again."
+},
+
+{
+  "image": "assets/images/chapter3/scene13.webp",
+  "speaker": "",
+  "text": "You couldn't help smiling."
+},
+
+{
+  "image": "assets/images/chapter3/scene13.webp",
+  "speaker": "{username}",
+  "text": "And you turn red really quickly too."
+},
+
+{
+  "image": "assets/images/chapter3/scene13.webp",
+  "speaker": "",
+  "text": "Yumei immediately looked away."
+},
+
+{
+  "image": "assets/images/chapter3/scene13.webp",
+  "speaker": "Yumei",
+  "text": "ENOUGH!!"
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "",
+  "text": "The two of you eventually reached the main gate of the school."
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "",
+  "text": "The evening air felt calmer now."
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "{username}",
+  "text": "By the way..."
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "{username}",
+  "text": "Next time..."
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "{username}",
+  "text": "I want you to lead the conversation."
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "{username}",
+  "text": "Before leaving though..."
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "{username}",
+  "text": "Ask me any question you have."
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "",
+  "text": "Yumei looked like she was seriously thinking."
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "Yumei",
+  "text": "Hmm..."
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "Yumei",
+  "text": "I don't really have questions..."
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "Yumei",
+  "text": "But okay."
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "Yumei",
+  "text": "What's your favorite color?"
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "Yumei",
+  "text": "That's all I know how to ask."
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "{username}",
+  "text": "That's actually a good question."
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "{username}",
+  "text": "My favorite color is {userfavoritecolor}."
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "{username}",
+  "text": "What about yours?"
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "Yumei",
+  "text": "Mine is dark blue."
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "{username}",
+  "text": "Nice choice."
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "{username}",
+  "text": "Can I ask your birthdate?"
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "Yumei",
+  "text": "My birthday is in June."
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "{username}",
+  "text": "Oh, nice."
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "{username}",
+  "text": "I'll remember to wish you."
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "{username}",
+  "text": "When in June?"
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "Yumei",
+  "text": "28."
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "{username}",
+  "text": "Okay."
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "{username}",
+  "text": "I'll remember to wish you."
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "Yumei",
+  "text": "What about yours?"
+},
+
+{
+  "image": "assets/images/chapter3/scene14.webp",
+  "speaker": "{username}",
+  "text": "{UserBirthdate}"
+},
+
+{
+  "image": "assets/images/chapter3/scene15.webp",
+  "speaker": "",
+  "text": "The sky slowly turned darker as the evening settled in."
+},
+
+{
+  "image": "assets/images/chapter3/scene15.webp",
+  "speaker": "",
+  "text": "The school gate stood quietly behind Yumei."
+},
+
+{
+  "image": "assets/images/chapter3/scene15.webp",
+  "speaker": "Yumei",
+  "text": "Okay then..."
+},
+
+{
+  "image": "assets/images/chapter3/scene15.webp",
+  "speaker": "Yumei",
+  "text": "I should go now."
+},
+
+{
+  "image": "assets/images/chapter3/scene15.webp",
+  "speaker": "{username}",
+  "text": "Yeah."
+},
+
+{
+  "image": "assets/images/chapter3/scene15.webp",
+  "speaker": "{username}",
+  "text": "Take care, Yumei."
+},
+
+{
+  "image": "assets/images/chapter3/scene15.webp",
+  "speaker": "Yumei",
+  "text": "You too."
+},
+
+{
+  "image": "assets/images/chapter3/scene15.webp",
+  "speaker": "",
+  "text": "She hesitated for a second."
+},
+
+{
+  "image": "assets/images/chapter3/scene15.webp",
+  "speaker": "Yumei",
+  "text": "And..."
+},
+
+{
+  "image": "assets/images/chapter3/scene15.webp",
+  "speaker": "Yumei",
+  "text": "Thanks for talking with me today."
+},
+
+{
+  "image": "assets/images/chapter3/scene15.webp",
+  "speaker": "{username}",
+  "text": "Always welcome."
+},
+
+{
+  "image": "assets/images/chapter3/scene15.webp",
+  "speaker": "{username}",
+  "text": "And next time..."
+},
+
+{
+  "image": "assets/images/chapter3/scene15.webp",
+  "speaker": "{username}",
+  "text": "You lead the conversation, remember?"
+},
+
+{
+  "image": "assets/images/chapter3/scene15.webp",
+  "speaker": "",
+  "text": "Yumei gave a small embarrassed smile."
+},
+
+{
+  "image": "assets/images/chapter3/scene15.webp",
+  "speaker": "Yumei",
+  "text": "I'll try."
+},
+
+{
+  "image": "assets/images/chapter3/scene15.webp",
+  "speaker": "Yumei",
+  "text": "Bye."
+},
+
+{
+  "image": "assets/images/chapter3/scene15.webp",
+  "speaker": "{username}",
+  "text": "Bye, Yumei."
+},
+
+{
+  "image": "assets/images/chapter3/scene15.webp",
+  "speaker": "",
+  "text": "As she slowly walked away into the evening, you couldn't help but smile."
+},
+
+{
+  "image": "assets/images/chapter3/scene15.webp",
+  "speaker": "",
+  "text": "Chapter 3 End."
+}
+  ]
+}

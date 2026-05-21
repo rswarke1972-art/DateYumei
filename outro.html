@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Chapter Complete | DateYumei
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+<body>
+
+    <!-- OUTRO SCREEN -->
+    <main
+        class="outro-screen"
+        id="outro-screen"
+    >
+
+        <!-- Overlay -->
+        <div class="overlay"></div>
+
+        <!-- Content -->
+        <section class="outro-content">
+
+            <!-- Title -->
+            <h1
+                class="credits-title"
+                id="chapter-title"
+            >
+                Chapter Complete
+            </h1>
+
+            <!-- Subtitle -->
+            <p
+                class="to-be-continued"
+                id="chapter-subtitle"
+            >
+                Another memory with Yumei...
+            </p>
+
+            <!-- Summary -->
+            <div class="credits-section">
+
+                <h2>
+                    DateYumei
+                </h2>
+
+                <p id="chapter-name">
+                    Loading chapter...
+                </p>
+
+                <br>
+
+                <h3>
+                    Story Progress
+                </h3>
+
+                <p id="chapter-summary">
+                    Loading summary...
+                </p>
+
+                <br>
+
+                <h3>
+                    Next Chapter
+                </h3>
+
+                <p id="chapter-next">
+                    More memories await...
+                </p>
+
+            </div>
+
+            <!-- Buttons -->
+            <div class="menu-buttons">
+
+                <button
+                    class="menu-btn"
+                    id="continue-btn"
+                    onclick="continueStory()"
+                >
+                    Continue Story →
+                </button>
+
+                <button
+                    class="menu-btn"
+                    onclick="goHome()"
+                >
+                    Back to Menu
+                </button>
+
+                <button
+                    class="menu-btn"
+                    onclick="restartStory()"
+                >
+                    Restart Story
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script>
+
+        // ==========================
+        // FADE IN
+        // ==========================
+
+        window.addEventListener(
+            "load",
+            () => {
+
+                document.body
+                .style.opacity =
+                    "1";
+
+                loadOutro();
+            }
+        );
+
+        // ==========================
+        // CHAPTER DATA
+        // ==========================
+
+        const chapterData = {
+
+            chapter1: {
+
+                title:
+                    "Chapter 1 Complete",
+
+                subtitle:
+                    "Your story with Yumei has only just begun...",
+
+                chapterName:
+                    "Chapter 1: The Beginning",
+
+                summary:
+                    "You met Yumei and slowly formed a connection.",
+
+                next:
+                    "Yumei might finally ask for your help with websites.",
+
+                background:
+                    "assets/images/chapter1/outro.webp",
+
+                nextChapter:
+                    "chapter2"
+            },
+
+            chapter2: {
+
+                title:
+                    "Chapter 2 Complete",
+
+                subtitle:
+                    "A little closer than before...",
+
+                chapterName:
+                    "Chapter 2: Shared Interests",
+
+                summary:
+                    "You talked about dreams, websites and future goals.",
+
+                next:
+                    "Maybe deeper conversations await next time.",
+
+                background:
+                    "assets/images/chapter2/outro.webp",
+
+                nextChapter:
+                    "chapter3"
+            },
+
+            chapter3: {
+
+                title:
+                    "Chapter 3 Complete",
+
+                subtitle:
+                    "Another meaningful conversation ends...",
+
+                chapterName:
+                    "Chapter 3: Growing Conversations",
+
+                summary:
+                    "You and Yumei talked about confidence, dreams and slowly grew closer.",
+
+                next:
+                    "Chapter 4 is still under development.",
+
+                background:
+                    "assets/images/chapter3/outro.webp",
+
+                nextChapter:
+                    null
+            }
+        };
+
+        // ==========================
+        // LOAD OUTRO
+        // ==========================
+
+        function loadOutro() {
+
+            const chapter =
+
+                localStorage.getItem(
+                    "completedChapter"
+                )
+
+                || "chapter1";
+
+            const data =
+                chapterData[
+                    chapter
+                ];
+
+            if (!data) return;
+
+            // Text
+            document.getElementById(
+                "chapter-title"
+            ).textContent =
+                data.title;
+
+            document.getElementById(
+                "chapter-subtitle"
+            ).textContent =
+                data.subtitle;
+
+            document.getElementById(
+                "chapter-name"
+            ).textContent =
+                data.chapterName;
+
+            document.getElementById(
+                "chapter-summary"
+            ).textContent =
+                data.summary;
+
+            document.getElementById(
+                "chapter-next"
+            ).textContent =
+                data.next;
+
+            // Background
+            document.getElementById(
+                "outro-screen"
+            ).style.background =
+            `
+            linear-gradient(
+                rgba(0,0,0,.55),
+                rgba(0,0,0,.88)
+            ),
+            url("${data.background}")
+            center/cover no-repeat
+            `;
+
+            // ==========================
+            // CONTINUE BUTTON LOCK
+            // ==========================
+
+            const continueBtn =
+                document.getElementById(
+                    "continue-btn"
+                );
+
+            if (
+                !data.nextChapter
+            ) {
+
+                continueBtn.disabled =
+                    true;
+
+                continueBtn.textContent =
+                    "Chapter 4 Coming Soon";
+
+                continueBtn.style.opacity =
+                    "0.6";
+
+                continueBtn.style.cursor =
+                    "not-allowed";
+            }
+
+            else {
+
+                localStorage.setItem(
+                    "nextChapter",
+                    data.nextChapter
+                );
+            }
+        }
+
+        // ==========================
+        // CONTINUE STORY
+        // ==========================
+
+        function continueStory() {
+
+            const nextChapter =
+
+                localStorage.getItem(
+                    "nextChapter"
+                );
+
+            if (!nextChapter)
+                return;
+
+            localStorage.setItem(
+                "currentChapter",
+                nextChapter
+            );
+
+            localStorage.setItem(
+                "currentScene",
+                "0"
+            );
+
+            window.location.href =
+                "story.html";
+        }
+
+        // ==========================
+        // HOME
+        // ==========================
+
+        function goHome() {
+
+            window.location.href =
+                "index.html";
+        }
+
+        // ==========================
+        // RESTART
+        // ==========================
+
+        function restartStory() {
+
+            localStorage.setItem(
+                "currentChapter",
+                "chapter1"
+            );
+
+            localStorage.setItem(
+                "currentScene",
+                "0"
+            );
+
+            window.location.href =
+                "story.html";
+        }
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        DateYumei
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+<body>
+
+    <!-- MENU SCREEN -->
+    <main class="menu-screen">
+
+        <!-- Overlay -->
+        <div class="overlay"></div>
+
+        <!-- Main Content -->
+        <section class="menu-content">
+
+            <!-- Title -->
+            <h1 class="game-title">
+                DateYumei
+            </h1>
+
+            <!-- Subtitle -->
+            <p class="subtitle">
+                A Story About Unexpected Connections ✦
+            </p>
+
+            <!-- Username -->
+            <div class="username-container">
+
+                <input
+                    type="text"
+                    id="username-input"
+                    placeholder="Enter your name"
+                    maxlength="20"
+                >
+
+            </div>
+
+            <!-- Buttons -->
+            <div class="menu-buttons">
+
+                <button
+                    onclick="startStory()"
+                >
+                    Start Story
+                </button>
+
+                <button
+                    id="continue-btn"
+                    onclick="continueStory()"
+                    style="display:none;"
+                >
+                    Continue Story
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script>
+
+        // ==========================
+        // FADE IN
+        // ==========================
+
+        window.addEventListener(
+            "load",
+            () => {
+
+                document.body
+                .style.opacity =
+                    "1";
+            }
+        );
+
+        // ==========================
+        // SHOW CONTINUE
+        // ==========================
+
+        window.addEventListener(
+            "DOMContentLoaded",
+            () => {
+
+                const savedChapter =
+
+                    localStorage.getItem(
+                        "currentChapter"
+                    );
+
+                if (
+                    savedChapter
+                ) {
+
+                    document
+                    .getElementById(
+                        "continue-btn"
+                    )
+                    .style.display =
+                        "block";
+                }
+            }
+        );
+
+        // ==========================
+        // START STORY
+        // ==========================
+
+        function startStory() {
+
+            const username =
+
+                document
+                .getElementById(
+                    "username-input"
+                )
+                .value
+                .trim();
+
+            if (!username) {
+
+                alert(
+                    "Please enter your name 😄"
+                );
+
+                return;
+            }
+
+            // Save username
+            localStorage.setItem(
+                "username",
+                username
+            );
+
+            // ==========================
+            // FULL STORY RESET
+            // ==========================
+
+            localStorage.setItem(
+                "currentChapter",
+                "chapter1"
+            );
+
+            localStorage.setItem(
+                "currentScene",
+                "0"
+            );
+
+            localStorage.removeItem(
+                "nextChapter"
+            );
+
+            localStorage.removeItem(
+                "completedChapter"
+            );
+
+            // Open story
+            window.location.href =
+                "story.html";
+        }
+
+        // ==========================
+        // CONTINUE STORY
+        // ==========================
+
+        function continueStory() {
+
+            window.location.href =
+                "story.html";
+        }
+
+    </script>
+
+</body>
+
+</html>

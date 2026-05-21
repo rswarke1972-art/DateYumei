@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        DateYumei — Story
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+<body>
+
+    <!-- STORY SCREEN -->
+    <main id="story-container">
+
+        <!-- Scene Image -->
+        <img
+            id="scene-image"
+            src="assets/images/chapter1/scene1.webp"
+            alt="Story Scene"
+            draggable="false"
+        >
+
+        <!-- Dark Overlay -->
+        <div class="scene-overlay"></div>
+
+        <!-- Dialogue Box -->
+        <section id="dialogue-box">
+
+            <!-- Speaker -->
+            <h2 id="speaker-name">
+
+            </h2>
+
+            <!-- Text Wrapper -->
+            <div id="story-wrapper">
+
+                <!-- Story Text -->
+                <p id="story-text">
+                    Loading story...
+                </p>
+
+            </div>
+
+            <!-- ==========================
+                 DYNAMIC INPUT BOX
+            =========================== -->
+
+            <div
+                id="user-input-box"
+                style="display:none;"
+            >
+
+                <input
+                    type="text"
+                    id="dynamic-input"
+                    placeholder="Type here..."
+                    autocomplete="off"
+                >
+
+                <button
+                    id="submit-input"
+                >
+                    Submit
+                </button>
+
+            </div>
+
+            <!-- Continue Hint -->
+            <span
+                id="continue-indicator"
+            >
+                Tap anywhere to continue →
+            </span>
+
+        </section>
+
+    </main>
+
+    <!-- Script -->
+    <script
+        src="script.js"
+        defer
+    ></script>
+
+</body>
+
+</html>
