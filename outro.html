@@ -7,12 +7,19 @@
 
     <meta
         name="viewport"
-        content="width=device-width, initial-scale=1.0"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     >
 
     <title>
         Chapter Complete | DateYumei
     </title>
+
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
 
     <link
         rel="stylesheet"
@@ -75,6 +82,14 @@
                 <br>
 
                 <h3>
+                    Relationship Closeness
+                </h3>
+
+                <div id="outro-hearts" style="font-size: 1.8rem; color: #d4af37; margin: 8px 0 16px 0;">
+                    ♥ ♥ ♥
+                </div>
+
+                <h3>
                     Next Chapter
                 </h3>
 
@@ -88,7 +103,7 @@
             <div class="menu-buttons">
 
                 <button
-                    class="menu-btn"
+                    class="menu-btn btn-primary"
                     id="continue-btn"
                     onclick="continueStory()"
                 >
@@ -96,14 +111,14 @@
                 </button>
 
                 <button
-                    class="menu-btn"
+                    class="menu-btn btn-secondary"
                     onclick="goHome()"
                 >
                     Back to Menu
                 </button>
 
                 <button
-                    class="menu-btn"
+                    class="menu-btn btn-secondary"
                     onclick="restartStory()"
                 >
                     Restart Story
@@ -134,7 +149,7 @@
         );
 
         // ==========================
-        // CHAPTER DATA
+        // CHAPTER DATA (Fixing missing outro.webp background bugs by using existing scenes)
         // ==========================
 
         const chapterData = {
@@ -157,7 +172,7 @@
                     "Yumei might finally ask for your help with websites.",
 
                 background:
-                    "assets/images/chapter1/outro.webp",
+                    "assets/images/chapter1/scene4.webp",
 
                 nextChapter:
                     "chapter2"
@@ -181,7 +196,7 @@
                     "Maybe deeper conversations await next time.",
 
                 background:
-                    "assets/images/chapter2/outro.webp",
+                    "assets/images/chapter2/scene11.webp",
 
                 nextChapter:
                     "chapter3"
@@ -205,7 +220,7 @@
                     "Chapter 4 is still under development.",
 
                 background:
-                    "assets/images/chapter3/outro.webp",
+                    "assets/images/chapter3/scene15.webp",
 
                 nextChapter:
                     null
@@ -218,51 +233,33 @@
 
         function loadOutro() {
 
-            const chapter =
+            const chapter = localStorage.getItem("yumei_game_completedChapter") || "chapter1";
 
-                localStorage.getItem(
-                    "completedChapter"
-                )
-
-                || "chapter1";
-
-            const data =
-                chapterData[
-                    chapter
-                ];
+            const data = chapterData[chapter];
 
             if (!data) return;
 
             // Text
-            document.getElementById(
-                "chapter-title"
-            ).textContent =
-                data.title;
+            document.getElementById("chapter-title").textContent = data.title;
+            document.getElementById("chapter-subtitle").textContent = data.subtitle;
+            document.getElementById("chapter-name").textContent = data.chapterName;
+            document.getElementById("chapter-summary").textContent = data.summary;
+            document.getElementById("chapter-next").textContent = data.next;
 
-            document.getElementById(
-                "chapter-subtitle"
-            ).textContent =
-                data.subtitle;
-
-            document.getElementById(
-                "chapter-name"
-            ).textContent =
-                data.chapterName;
-
-            document.getElementById(
-                "chapter-summary"
-            ).textContent =
-                data.summary;
-
-            document.getElementById(
-                "chapter-next"
-            ).textContent =
-                data.next;
+            // Render Hearts
+            const scoreVal = parseInt(localStorage.getItem("yumei_game_relationship_score")) || 3;
+            let heartStr = "";
+            for (let i = 0; i < 5; i++) {
+                if (i < scoreVal) {
+                    heartStr += "♥ ";
+                } else {
+                    heartStr += "♡ ";
+                }
+            }
+            document.getElementById("outro-hearts").textContent = heartStr.trim();
 
             // Background
-            document.getElementById(
-                "outro-screen"
-            ).style.background =
+            document.getElementById("outro-screen").style.background =
             `
             linear-gradient(
                 rgba(0,0,0,.55),
@@ -272,38 +269,41 @@
             center/cover no-repeat
             `;
 
+            // Lock gallery unlock verification
+            // Unlock sunset walk and confession if relationship score is high enough at Chapter 3 Complete
+            if (chapter === "chapter1") {
+                localStorage.setItem("yumei_game_unlocked_bg_classroom", "true");
+                localStorage.setItem("yumei_game_unlocked_bg_hallway", "true");
+                localStorage.setItem("yumei_game_unlocked_bg_gate", "true");
+                localStorage.setItem("yumei_game_unlocked_cg_first_meeting", "true");
+                localStorage.setItem("yumei_game_unlocked_music_track1", "true");
+            } else if (chapter === "chapter2") {
+                localStorage.setItem("yumei_game_unlocked_bg_library", "true");
+                localStorage.setItem("yumei_game_unlocked_music_track2", "true");
+                if (scoreVal >= 4) {
+                    localStorage.setItem("yumei_game_unlocked_cg_confession", "true");
+                }
+            } else if (chapter === "chapter3") {
+                localStorage.setItem("yumei_game_unlocked_cg_sunset_walk", "true");
+            }
+
             // ==========================
             // CONTINUE BUTTON LOCK
             // ==========================
 
-            const continueBtn =
-                document.getElementById(
-                    "continue-btn"
-                );
+            const continueBtn = document.getElementById("continue-btn");
 
-            if (
-                !data.nextChapter
-            ) {
+            if (!data.nextChapter) {
 
-                continueBtn.disabled =
-                    true;
-
-                continueBtn.textContent =
-                    "Chapter 4 Coming Soon";
-
-                continueBtn.style.opacity =
-                    "0.6";
-
-                continueBtn.style.cursor =
-                    "not-allowed";
+                continueBtn.disabled = true;
+                continueBtn.textContent = "Chapter 4 Coming Soon";
+                continueBtn.style.opacity = "0.6";
+                continueBtn.style.cursor = "not-allowed";
             }
 
             else {
 
-                localStorage.setItem(
-                    "nextChapter",
-                    data.nextChapter
-                );
+                localStorage.setItem("yumei_game_nextChapter", data.nextChapter);
             }
         }
 
@@ -313,27 +313,14 @@
 
         function continueStory() {
 
-            const nextChapter =
+            const nextChapter = localStorage.getItem("yumei_game_nextChapter");
 
-                localStorage.getItem(
-                    "nextChapter"
-                );
+            if (!nextChapter) return;
 
-            if (!nextChapter)
-                return;
+            localStorage.setItem("yumei_game_currentChapter", nextChapter);
+            localStorage.setItem("yumei_game_currentScene", "0");
 
-            localStorage.setItem(
-                "currentChapter",
-                nextChapter
-            );
-
-            localStorage.setItem(
-                "currentScene",
-                "0"
-            );
-
-            window.location.href =
-                "story.html";
+            window.location.href = "story.html";
         }
 
         // ==========================
@@ -341,9 +328,7 @@
         // ==========================
 
         function goHome() {
-
-            window.location.href =
-                "index.html";
+            window.location.href = "index.html";
         }
 
         // ==========================
@@ -351,19 +336,12 @@
         // ==========================
 
         function restartStory() {
+            // Only clean session data, keep unlocked variables
+            localStorage.setItem("yumei_game_currentChapter", "chapter1");
+            localStorage.setItem("yumei_game_currentScene", "0");
+            localStorage.setItem("yumei_game_relationship_score", "3");
 
-            localStorage.setItem(
-                "currentChapter",
-                "chapter1"
-            );
-
-            localStorage.setItem(
-                "currentScene",
-                "0"
-            );
-
-            window.location.href =
-                "story.html";
+            window.location.href = "story.html";
         }
 
     </script>

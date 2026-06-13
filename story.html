@@ -7,12 +7,23 @@
 
     <meta
         name="viewport"
-        content="width=device-width, initial-scale=1.0"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     >
+    <meta name="theme-color" content="#000000">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
 
     <title>
         DateYumei — Story
     </title>
+
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
 
     <link
         rel="stylesheet"
@@ -25,6 +36,25 @@
 
     <!-- STORY SCREEN -->
     <main id="story-container">
+
+        <!-- Top Controls / Status Bar -->
+        <header id="story-controls">
+            <!-- Relationship Meter (Semi-hidden/Subtle) -->
+            <div id="heart-meter" title="Closeness with Yumei">
+                <span id="hearts-display">♥ ♥ ♥</span>
+            </div>
+
+            <!-- Game Actions -->
+            <div class="control-actions">
+                <button id="history-btn" onclick="openBacklog(event)" title="View Dialogue Log">Log</button>
+                <button id="auto-btn" onclick="toggleAuto(event)" title="Auto-Play Mode">Auto</button>
+                <button id="skip-btn" onclick="toggleSkip(event)" title="Skip Dialogue">Skip</button>
+                <button id="music-toggle-btn" onclick="toggleMusic(event)" title="Play/Mute Music">🎵 Play</button>
+                <div class="volume-slider-container">
+                    <input type="range" id="volume-slider" min="0" max="100" value="50" onchange="adjustVolume(event)" oninput="adjustVolume(event)">
+                </div>
+            </div>
+        </header>
 
         <!-- Scene Image -->
         <img
@@ -56,7 +86,7 @@
             </div>
 
             <!-- ==========================
-                 DYNAMIC INPUT BOX
+                 DYNAMIC INPUT BOX (For variables like birthdate/color/hobbies)
             =========================== -->
 
             <div
@@ -79,6 +109,16 @@
 
             </div>
 
+            <!-- ==========================
+                 DYNAMIC STORY BRANCH CHOICES
+            =========================== -->
+            <div
+                id="choice-container"
+                style="display:none;"
+            >
+                <!-- Buttons will be injected here by script.js -->
+            </div>
+
             <!-- Continue Hint -->
             <span
                 id="continue-indicator"
@@ -89,6 +129,20 @@
         </section>
 
     </main>
+
+    <!-- BACKLOG / HISTORY LOG MODAL -->
+    <div id="backlog-modal" class="modal-overlay" style="display: none;" onclick="closeBacklog()">
+        <div class="backlog-content" onclick="event.stopPropagation()">
+            <button class="close-modal-btn" onclick="closeBacklog()">✕</button>
+            <h2 class="backlog-title">Dialogue History Log</h2>
+            <div id="backlog-list">
+                <!-- Log content dynamically written here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Music Audio Tag -->
+    <audio id="bgm-player" loop></audio>
 
     <!-- Script -->
     <script

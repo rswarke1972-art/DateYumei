@@ -7,12 +7,24 @@
 
     <meta
         name="viewport"
-        content="width=device-width, initial-scale=1.0"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     >
+    <meta name="theme-color" content="#000000">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="DateYumei">
+    <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
 
     <title>
-        DateYumei
+        DateYumei — A Story About Unexpected Connections ✦
     </title>
+
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
 
     <link
         rel="stylesheet"
@@ -50,6 +62,7 @@
                     id="username-input"
                     placeholder="Enter your name"
                     maxlength="20"
+                    autocomplete="off"
                 >
 
             </div>
@@ -59,6 +72,7 @@
 
                 <button
                     onclick="startStory()"
+                    class="btn-primary"
                 >
                     Start Story
                 </button>
@@ -66,9 +80,27 @@
                 <button
                     id="continue-btn"
                     onclick="continueStory()"
+                    class="btn-secondary"
                     style="display:none;"
                 >
                     Continue Story
+                </button>
+
+                <button
+                    id="gallery-btn"
+                    onclick="openGallery()"
+                    class="btn-secondary"
+                >
+                    Gallery & Archive
+                </button>
+
+                <button
+                    id="install-btn"
+                    onclick="triggerPWAInstall()"
+                    class="btn-install"
+                    style="display:none;"
+                >
+                    Install Standalone App
                 </button>
 
             </div>
@@ -77,7 +109,78 @@
 
     </main>
 
+    <!-- GALLERY PANEL -->
+    <div id="gallery-panel" class="modal-overlay" style="display: none;">
+        <div class="gallery-content">
+            <button class="close-modal-btn" onclick="closeGallery()">✕</button>
+            <h2 class="gallery-title">Gallery & Archive</h2>
+            
+            <div class="gallery-tabs">
+                <button class="tab-btn active" onclick="switchTab('backgrounds')">Backgrounds</button>
+                <button class="tab-btn" onclick="switchTab('cgs')">CG Moments</button>
+                <button class="tab-btn" onclick="switchTab('music')">Soundtrack</button>
+            </div>
+            
+            <div class="tab-content" id="backgrounds-tab">
+                <div class="gallery-grid" id="bg-grid">
+                    <!-- Backgrounds injected here -->
+                </div>
+            </div>
+            
+            <div class="tab-content" id="cgs-tab" style="display: none;">
+                <div class="gallery-grid" id="cg-grid">
+                    <!-- CGs injected here -->
+                </div>
+            </div>
+            
+            <div class="tab-content" id="music-tab" style="display: none;">
+                <div class="music-list" id="music-grid">
+                    <!-- Music tracks injected here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden audio element for previewing music in gallery -->
+    <audio id="gallery-preview-audio"></audio>
+
     <script>
+
+        // ==========================
+        // SERVICE WORKER REGISTRATION
+        // ==========================
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", () => {
+                navigator.serviceWorker.register("./sw.js")
+                    .then((reg) => console.log("SW Registered", reg.scope))
+                    .catch((err) => console.error("SW Registration failed", err));
+            });
+        }
+
+        // ==========================
+        // PWA INSTALL TRIGGER
+        // ==========================
+        let deferredPrompt;
+        window.addEventListener("beforeinstallprompt", (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            const installBtn = document.getElementById("install-btn");
+            if (installBtn) {
+                installBtn.style.display = "block";
+            }
+        });
+
+        function triggerPWAInstall() {
+            if (!deferredPrompt) return;
+            deferredPrompt.prompt();
+            deferredPrompt.userChoice.then((choiceResult) => {
+                if (choiceResult.outcome === "accepted") {
+                    console.log("User accepted install prompt");
+                }
+                document.getElementById("install-btn").style.display = "none";
+                deferredPrompt = null;
+            });
+        }
 
         // ==========================
         // FADE IN
@@ -86,10 +189,7 @@
         window.addEventListener(
             "load",
             () => {
-
-                document.body
-                .style.opacity =
-                    "1";
+                document.body.style.opacity = "1";
             }
         );
 
@@ -100,23 +200,19 @@
         window.addEventListener(
             "DOMContentLoaded",
             () => {
+                const savedChapter = localStorage.getItem("yumei_game_currentChapter");
+                if (savedChapter) {
+                    document.getElementById("continue-btn").style.display = "block";
+                }
 
-                const savedChapter =
-
-                    localStorage.getItem(
-                        "currentChapter"
-                    );
-
-                if (
-                    savedChapter
-                ) {
-
-                    document
-                    .getElementById(
-                        "continue-btn"
-                    )
-                    .style.display =
-                        "block";
+                // Setup enter key press on username input
+                const usernameInput = document.getElementById("username-input");
+                if (usernameInput) {
+                    usernameInput.addEventListener("keydown", (e) => {
+                        if (e.key === "Enter") {
+                            startStory();
+                        }
+                    });
                 }
             }
         );
@@ -126,56 +222,37 @@
         // ==========================
 
         function startStory() {
-
-            const username =
-
-                document
-                .getElementById(
-                    "username-input"
-                )
-                .value
-                .trim();
+            const username = document.getElementById("username-input").value.trim();
 
             if (!username) {
-
-                alert(
-                    "Please enter your name 😄"
-                );
-
+                // Show standard modal instead of ugly alert in the future, 
+                // for now fallback to customized check
+                alert("Please enter your name 😄");
                 return;
             }
 
-            // Save username
-            localStorage.setItem(
-                "username",
-                username
-            );
+            // Clean previous game state using Namespace to avoid clearing settings or gallery progress
+            const keysToRemove = [
+                "yumei_game_currentChapter",
+                "yumei_game_currentScene",
+                "yumei_game_completedChapter",
+                "yumei_game_nextChapter",
+                "yumei_game_username",
+                "yumei_game_UserBirthdate",
+                "yumei_game_userfavoritecolor",
+                "yumei_game_user_hobbies",
+                "yumei_game_relationship_score"
+            ];
+            keysToRemove.forEach(k => localStorage.removeItem(k));
 
-            // ==========================
-            // FULL STORY RESET
-            // ==========================
-
-            localStorage.setItem(
-                "currentChapter",
-                "chapter1"
-            );
-
-            localStorage.setItem(
-                "currentScene",
-                "0"
-            );
-
-            localStorage.removeItem(
-                "nextChapter"
-            );
-
-            localStorage.removeItem(
-                "completedChapter"
-            );
+            // Save new username
+            localStorage.setItem("yumei_game_username", username);
+            localStorage.setItem("yumei_game_currentChapter", "chapter1");
+            localStorage.setItem("yumei_game_currentScene", "0");
+            localStorage.setItem("yumei_game_relationship_score", "3"); // start neutral (3/5)
 
             // Open story
-            window.location.href =
-                "story.html";
+            window.location.href = "story.html";
         }
 
         // ==========================
@@ -183,9 +260,154 @@
         // ==========================
 
         function continueStory() {
+            window.location.href = "story.html";
+        }
 
-            window.location.href =
-                "story.html";
+        // ==========================
+        // GALLERY SYSTEMS
+        // ==========================
+
+        const galleryData = {
+            backgrounds: [
+                { id: "classroom", name: "Morning Classroom", src: "assets/images/chapter1/scene1.webp", unlockKey: "yumei_game_unlocked_bg_classroom" },
+                { id: "hallway", name: "School Corridor", src: "assets/images/chapter1/scene2.webp", unlockKey: "yumei_game_unlocked_bg_hallway" },
+                { id: "gate", name: "School Gate Sunset", src: "assets/images/chapter1/scene4.webp", unlockKey: "yumei_game_unlocked_bg_gate" },
+                { id: "library", name: "Quiet Library", src: "assets/images/chapter2/scene1.webp", unlockKey: "yumei_game_unlocked_bg_library" }
+            ],
+            cgs: [
+                { id: "first_meeting", name: "First Meeting", src: "assets/images/chapter1/scene1.webp", description: "You handed back her dropped pen.", unlockKey: "yumei_game_unlocked_cg_first_meeting" },
+                { id: "sunset_walk", name: "Sunset Walk", src: "assets/images/chapter3/scene15.webp", description: "Walking home together in the evening glow.", unlockKey: "yumei_game_unlocked_cg_sunset_walk" },
+                { id: "confession", name: "A Trusting Heart", src: "assets/images/chapter3/scene11.webp", description: "Sharing secrets under the library window.", unlockKey: "yumei_game_unlocked_cg_confession" }
+            ],
+            music: [
+                { id: "track1", name: "Memories of Yumei (Main Theme)", src: "assets/audio/track1.mp3", unlockKey: "yumei_game_unlocked_music_track1" },
+                { id: "track2", name: "Quiet Library (Lofi Chill)", src: "assets/audio/track2.mp3", unlockKey: "yumei_game_unlocked_music_track2" }
+            ]
+        };
+
+        function openGallery() {
+            document.getElementById("gallery-panel").style.display = "flex";
+            renderGalleryTab("backgrounds");
+        }
+
+        function closeGallery() {
+            document.getElementById("gallery-panel").style.display = "none";
+            const previewAudio = document.getElementById("gallery-preview-audio");
+            if (previewAudio) {
+                previewAudio.pause();
+            }
+        }
+
+        function switchTab(tabName) {
+            // Update active button state
+            const tabButtons = document.querySelectorAll(".tab-btn");
+            tabButtons.forEach(btn => btn.classList.remove("active"));
+            
+            // Add active to current
+            const targetBtn = Array.from(tabButtons).find(btn => btn.textContent.toLowerCase().includes(tabName === "cgs" ? "cg" : tabName));
+            if (targetBtn) targetBtn.classList.add("active");
+
+            // Hide all tabs
+            document.getElementById("backgrounds-tab").style.display = "none";
+            document.getElementById("cgs-tab").style.display = "none";
+            document.getElementById("music-tab").style.display = "none";
+
+            // Show selected tab
+            document.getElementById(`${tabName}-tab`).style.display = "block";
+            renderGalleryTab(tabName);
+        }
+
+        function renderGalleryTab(tabName) {
+            const items = galleryData[tabName];
+            
+            if (tabName === "backgrounds") {
+                const grid = document.getElementById("bg-grid");
+                grid.innerHTML = "";
+                items.forEach(item => {
+                    const isUnlocked = localStorage.getItem(item.unlockKey) === "true";
+                    const card = document.createElement("div");
+                    card.className = `gallery-card ${isUnlocked ? "unlocked" : "locked"}`;
+                    
+                    card.innerHTML = `
+                        <div class="gallery-media-wrapper">
+                            <img src="${isUnlocked ? item.src : 'data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22100%22 height=%22100%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%23222%22/><text x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2224%22>🔒</text></svg>'}" alt="${item.name}">
+                        </div>
+                        <div class="gallery-info">
+                            <span class="gallery-item-name">${isUnlocked ? item.name : "Locked Background"}</span>
+                        </div>
+                    `;
+                    grid.appendChild(card);
+                });
+            } else if (tabName === "cgs") {
+                const grid = document.getElementById("cg-grid");
+                grid.innerHTML = "";
+                items.forEach(item => {
+                    const isUnlocked = localStorage.getItem(item.unlockKey) === "true";
+                    const card = document.createElement("div");
+                    card.className = `gallery-card cg-card ${isUnlocked ? "unlocked" : "locked"}`;
+                    
+                    card.innerHTML = `
+                        <div class="gallery-media-wrapper">
+                            <img src="${isUnlocked ? item.src : 'data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22100%22 height=%22100%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%23222%22/><text x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2224%22>🔒</text></svg>'}" alt="${item.name}">
+                        </div>
+                        <div class="gallery-info">
+                            <span class="gallery-item-name">${isUnlocked ? item.name : "Locked Memory"}</span>
+                            <span class="gallery-item-desc">${isUnlocked ? item.description : "Keep playing to unlock Yumei's memories."}</span>
+                        </div>
+                    `;
+                    grid.appendChild(card);
+                });
+            } else if (tabName === "music") {
+                const grid = document.getElementById("music-grid");
+                grid.innerHTML = "";
+                items.forEach((item, index) => {
+                    const isUnlocked = localStorage.getItem(item.unlockKey) === "true";
+                    const row = document.createElement("div");
+                    row.className = `music-row ${isUnlocked ? "unlocked" : "locked"}`;
+                    
+                    row.innerHTML = `
+                        <div class="music-details">
+                            <span class="music-index">0${index + 1}</span>
+                            <span class="music-name">${isUnlocked ? item.name : "Locked Soundtrack"}</span>
+                        </div>
+                        ${isUnlocked ? `
+                            <button class="play-preview-btn" onclick="playGalleryMusic('${item.src}', this)">Play</button>
+                        ` : `
+                            <span class="music-lock">🔒 Locked</span>
+                        `}
+                    `;
+                    grid.appendChild(row);
+                });
+            }
+        }
+
+        let currentPlayingBtn = null;
+        function playGalleryMusic(src, btn) {
+            const audio = document.getElementById("gallery-preview-audio");
+            if (!audio) return;
+
+            if (currentPlayingBtn === btn && !audio.paused) {
+                audio.pause();
+                btn.textContent = "Play";
+                return;
+            }
+
+            if (currentPlayingBtn) {
+                currentPlayingBtn.textContent = "Play";
+            }
+
+            audio.src = src;
+            audio.play().then(() => {
+                btn.textContent = "Pause";
+                currentPlayingBtn = btn;
+            }).catch(e => {
+                console.error("Audio playback failed", e);
+            });
+
+            audio.onended = () => {
+                btn.textContent = "Play";
+                currentPlayingBtn = null;
+            };
         }
 
     </script>
